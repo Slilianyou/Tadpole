@@ -1,0 +1,44 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 10
+        },
+        "cap-insets" : {
+          "right" : 20,
+          "left" : 2
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "showREMenu.png",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "3-part-horizontal",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 19
+        },
+        "cap-insets" : {
+          "right" : 40,
+          "left" : 5
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "showREMenu@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

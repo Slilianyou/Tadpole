@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  Tadpole
+//
+//  Created by ss-iOS-LLY on 15/12/8.
+//  Copyright © 2015年 Shanghai Sysyscanit Information Technology Ltd. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+
+#import "TPDefine.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <QuartzCore/QuartzCore.h>
+#import "UIViewController+progressHud.h"
+#import "LLYPhotoGlobal.h"
+#import "JSONKit.h"
+#import "MyAFNetWork.h"
+#import "UIImageView+WebCache.h"
+
+#import "MJExtension.h"
+
+
+// CateGory
+#import "UIButton+Set.h"
+#import "UIView+Frame.h"
+#import "NSTimer+Addition.h"
+//
+#import "UIViewController+progrssHud.h"
+//TODO:三方
+#import "iflyMSC/iflyMSC.h"
+#endif
+
+#endif /* PrefixHeader_pch */

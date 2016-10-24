@@ -1,0 +1,36 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "JianTouBottom.png",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "tile",
+          "width" : 19,
+          "height" : 1
+        },
+        "cap-insets" : {
+          "bottom" : 12,
+          "top" : 11,
+          "right" : 5,
+          "left" : 0
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "JianTouBottom@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
