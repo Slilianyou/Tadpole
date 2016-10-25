@@ -53,7 +53,6 @@
 		7B53630A1DB9F7F6005C0F48 /* libDIRAC_iOS4-fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5363091DB9F7F6005C0F48 /* libDIRAC_iOS4-fat.a */; };
 		7B53630D1DB9FDE4005C0F48 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53630C1DB9FDE4005C0F48 /* CoreAudio.framework */; };
 		7B53630F1DB9FDFA005C0F48 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53630E1DB9FDFA005C0F48 /* Accelerate.framework */; };
-		7B5363341DBA042F005C0F48 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5363331DBA042F005C0F48 /* IJKMediaFramework.framework */; };
 		7B5363401DBA048E005C0F48 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5363371DBA048E005C0F48 /* SVIndefiniteAnimatedView.m */; };
 		7B5363411DBA048E005C0F48 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5363391DBA048E005C0F48 /* SVProgressAnimatedView.m */; };
 		7B5363421DBA048E005C0F48 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7B53633B1DBA048E005C0F48 /* SVProgressHUD.bundle */; };
@@ -65,6 +64,7 @@
 		7B5363561DBA0635005C0F48 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B53634E1DBA0635005C0F48 /* AFURLRequestSerialization.m */; };
 		7B5363571DBA0635005C0F48 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5363501DBA0635005C0F48 /* AFURLResponseSerialization.m */; };
 		7B5363581DBA0635005C0F48 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5363521DBA0635005C0F48 /* AFURLSessionManager.m */; };
+		7B5368D11DBEEE49005C0F48 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5368D01DBEEE49005C0F48 /* IJKMediaFramework.framework */; };
 		7B562A071C328FC700410C96 /* hou@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B562A061C328FC700410C96 /* hou@2x.png */; };
 		7B562A091C3377E800410C96 /* headTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B562A081C3377E800410C96 /* headTitle.png */; };
 		7B562A0C1C338CE500410C96 /* MYPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B562A0B1C338CE500410C96 /* MYPictureView.m */; };
@@ -322,7 +322,6 @@
 		7B5363091DB9F7F6005C0F48 /* libDIRAC_iOS4-fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libDIRAC_iOS4-fat.a"; sourceTree = "<group>"; };
 		7B53630C1DB9FDE4005C0F48 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		7B53630E1DB9FDFA005C0F48 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
-		7B5363331DBA042F005C0F48 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7B5363361DBA048E005C0F48 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		7B5363371DBA048E005C0F48 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		7B5363381DBA048E005C0F48 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
@@ -346,6 +345,7 @@
 		7B5363501DBA0635005C0F48 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		7B5363511DBA0635005C0F48 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		7B5363521DBA0635005C0F48 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		7B5368D01DBEEE49005C0F48 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		7B562A061C328FC700410C96 /* hou@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hou@2x.png"; sourceTree = "<group>"; };
 		7B562A081C3377E800410C96 /* headTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headTitle.png; sourceTree = "<group>"; };
 		7B562A0A1C338CE500410C96 /* MYPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPictureView.h; sourceTree = "<group>"; };
@@ -604,10 +604,10 @@
 				7B53630F1DB9FDFA005C0F48 /* Accelerate.framework in Frameworks */,
 				7B53630D1DB9FDE4005C0F48 /* CoreAudio.framework in Frameworks */,
 				7B91FE181C1A912500B34D17 /* AVFoundation.framework in Frameworks */,
-				7B5363341DBA042F005C0F48 /* IJKMediaFramework.framework in Frameworks */,
 				7BAA7FD21C42202C00299D32 /* Security.framework in Frameworks */,
 				7B2437D81C3F686A00E6673C /* LocalAuthentication.framework in Frameworks */,
 				7B701B4F1C2147DA00263B30 /* AddressBook.framework in Frameworks */,
+				7B5368D11DBEEE49005C0F48 /* IJKMediaFramework.framework in Frameworks */,
 				7B701B4D1C2147C000263B30 /* CoreTelephony.framework in Frameworks */,
 				7B701B4B1C2147AD00263B30 /* CoreLocation.framework in Frameworks */,
 				7B701B461C2142FA00263B30 /* libz.tbd in Frameworks */,
@@ -1153,7 +1153,7 @@
 			children = (
 				7B701B471C21476A00263B30 /* lib */,
 				7B701B451C2142FA00263B30 /* libz.tbd */,
-				7B5363331DBA042F005C0F48 /* IJKMediaFramework.framework */,
+				7B5368D01DBEEE49005C0F48 /* IJKMediaFramework.framework */,
 				7BAA7FD11C42202C00299D32 /* Security.framework */,
 				7B2437D71C3F686A00E6673C /* LocalAuthentication.framework */,
 				7B701B4E1C2147DA00263B30 /* AddressBook.framework */,
