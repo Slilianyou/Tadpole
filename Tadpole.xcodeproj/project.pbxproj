@@ -648,6 +648,9 @@
 		7B2931211DBEF85200953749 /* HomekindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931121DBEF85200953749 /* HomekindCell.m */; };
 		7B2931221DBEF85200953749 /* HomeTopScrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931141DBEF85200953749 /* HomeTopScrCell.m */; };
 		7B2931231DBEF85200953749 /* RushBuyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931161DBEF85200953749 /* RushBuyCell.m */; };
+		7B29312A1DBEFC2B00953749 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931261DBEFC2B00953749 /* AddressViewController.m */; };
+		7B29312B1DBEFC2B00953749 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931281DBEFC2B00953749 /* CityTableViewCell.m */; };
+		7B29312C1DBEFC2B00953749 /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931291DBEFC2B00953749 /* welcome_background.png */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B4F2B831DAF812E00581CE4 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F2B591DAF812E00581CE4 /* MJRefreshAutoFooter.m */; };
@@ -1549,6 +1552,11 @@
 		7B2931141DBEF85200953749 /* HomeTopScrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopScrCell.m; sourceTree = "<group>"; };
 		7B2931151DBEF85200953749 /* RushBuyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RushBuyCell.h; sourceTree = "<group>"; };
 		7B2931161DBEF85200953749 /* RushBuyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RushBuyCell.m; sourceTree = "<group>"; };
+		7B2931251DBEFC2B00953749 /* AddressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressViewController.h; sourceTree = "<group>"; };
+		7B2931261DBEFC2B00953749 /* AddressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressViewController.m; sourceTree = "<group>"; };
+		7B2931271DBEFC2B00953749 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
+		7B2931281DBEFC2B00953749 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
+		7B2931291DBEFC2B00953749 /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -2871,6 +2879,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		7B2931241DBEFC2B00953749 /* Address */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931251DBEFC2B00953749 /* AddressViewController.h */,
+				7B2931261DBEFC2B00953749 /* AddressViewController.m */,
+				7B2931271DBEFC2B00953749 /* CityTableViewCell.h */,
+				7B2931281DBEFC2B00953749 /* CityTableViewCell.m */,
+				7B2931291DBEFC2B00953749 /* welcome_background.png */,
+			);
+			path = Address;
+			sourceTree = "<group>";
+		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -3136,6 +3156,7 @@
 		7B5B962D1C101919006F8359 /* Tadpole */ = {
 			isa = PBXGroup;
 			children = (
+				7B2931241DBEFC2B00953749 /* Address */,
 				7B2930FA1DBEF85200953749 /* Home */,
 				7B292BFB1DBEF14500953749 /* Kinds */,
 				7B0282181DB7445C0007E704 /* VoiceVC */,
@@ -4234,6 +4255,7 @@
 				7B292F0B1DBEF14600953749 /* cat_drink0073.jpg in Resources */,
 				7B2930161DBEF14700953749 /* cat_knockout0069.jpg in Resources */,
 				7B292F2A1DBEF14600953749 /* cat_eat0021.jpg in Resources */,
+				7B29312C1DBEFC2B00953749 /* welcome_background.png in Resources */,
 				7B29304E1DBEF14700953749 /* Scratch0016.jpg in Resources */,
 				7B8112AF1C269C5D0083C849 /* loading-3.png in Resources */,
 				7B2930881DBEF14700953749 /* cat_stomach0018.jpg in Resources */,
@@ -4490,6 +4512,7 @@
 				7B2930E51DBEF14700953749 /* TomBaseViewController.m in Sources */,
 				7B5363431DBA048E005C0F48 /* SVProgressHUD.m in Sources */,
 				7B2931211DBEF85200953749 /* HomekindCell.m in Sources */,
+				7B29312A1DBEFC2B00953749 /* AddressViewController.m in Sources */,
 				7B2930F41DBEF14700953749 /* MovieRMTPCreator.m in Sources */,
 				7B2930EA1DBEF14700953749 /* LLYMapViewController.m in Sources */,
 				7BCF6FB31C53672800F30E31 /* TrackRoundView.m in Sources */,
@@ -4550,6 +4573,7 @@
 				7B29311E1DBEF85200953749 /* CollectionViewCell.m in Sources */,
 				7B2930F51DBEF14700953749 /* MovieRMTPLives.m in Sources */,
 				7BAED52D1C45E5C4006723FB /* NSData+ImageContentType.m in Sources */,
+				7B29312B1DBEFC2B00953749 /* CityTableViewCell.m in Sources */,
 				7B2930ED1DBEF14700953749 /* RLBaseDateModel.m in Sources */,
 				7B2931171DBEF85200953749 /* ADViewController.m in Sources */,
 				7BAED53A1C45E5C4006723FB /* UIImageView+WebCache.m in Sources */,
