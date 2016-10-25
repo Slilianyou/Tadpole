@@ -676,6 +676,40 @@
 		7B29317A1DBEFF4B00953749 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931731DBEFF4B00953749 /* ScanResultViewController.m */; };
 		7B29317B1DBEFF4B00953749 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931751DBEFF4B00953749 /* ScanViewController.m */; };
 		7B29317C1DBEFF4B00953749 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931771DBEFF4B00953749 /* StarRatingView.m */; };
+		7B2931821DBEFFDC00953749 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29317F1DBEFFDC00953749 /* MyInfoTableViewCell.m */; };
+		7B2931831DBEFFDC00953749 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931811DBEFFDC00953749 /* MyInfoViewController.m */; };
+		7B2931AA1DBF000200953749 /* CUShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931861DBF000200953749 /* CUShowView.m */; };
+		7B2931AB1DBF000200953749 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931891DBF000200953749 /* IATConfig.m */; };
+		7B2931AC1DBF000200953749 /* IATConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29318B1DBF000200953749 /* IATConfigViewController.m */; };
+		7B2931AD1DBF000200953749 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29318D1DBF000200953749 /* ISRDataHelper.m */; };
+		7B2931AE1DBF000200953749 /* LLYPhotoCaptionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29318F1DBF000200953749 /* LLYPhotoCaptionView.m */; };
+		7B2931AF1DBF000200953749 /* LLYPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931921DBF000200953749 /* LLYPhotoImageView.m */; };
+		7B2931B01DBF000200953749 /* LLYPhotoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931941DBF000200953749 /* LLYPhotoScrollView.m */; };
+		7B2931B11DBF000200953749 /* MyAFNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931961DBF000200953749 /* MyAFNetWork.m */; };
+		7B2931B21DBF000200953749 /* MYPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931981DBF000200953749 /* MYPictureView.m */; };
+		7B2931B31DBF000200953749 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29319B1DBF000200953749 /* PcmPlayer.m */; };
+		7B2931B41DBF000200953749 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29319E1DBF000200953749 /* PopupView.m */; };
+		7B2931B51DBF000200953749 /* ShowAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931A01DBF000200953749 /* ShowAlertView.m */; };
+		7B2931B61DBF000200953749 /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931A31DBF000200953749 /* TTSConfig.m */; };
+		7B2931B71DBF000200953749 /* TTSConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931A51DBF000200953749 /* TTSConfigViewController.m */; };
+		7B2931B81DBF000200953749 /* TTSUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931A71DBF000200953749 /* TTSUIController.m */; };
+		7B2931B91DBF000200953749 /* UIViewController+progressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931A91DBF000200953749 /* UIViewController+progressHud.m */; };
+		7B2931D41DBF000E00953749 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931BB1DBF000E00953749 /* background.jpg */; };
+		7B2931D51DBF000E00953749 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931BC1DBF000E00953749 /* ball.png */; };
+		7B2931D61DBF000E00953749 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931BD1DBF000E00953749 /* fire.png */; };
+		7B2931D71DBF000E00953749 /* FMTracksModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931BF1DBF000E00953749 /* FMTracksModel.m */; };
+		7B2931D81DBF000E00953749 /* FSPlayIistItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931C11DBF000E00953749 /* FSPlayIistItem.m */; };
+		7B2931D91DBF000E00953749 /* girl.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931C21DBF000E00953749 /* girl.png */; };
+		7B2931DA1DBF000E00953749 /* MIFooterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931C41DBF000E00953749 /* MIFooterTableViewCell.m */; };
+		7B2931DB1DBF000E00953749 /* MIHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931C61DBF000E00953749 /* MIHeaderTableViewCell.m */; };
+		7B2931DC1DBF000E00953749 /* MusicInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931C81DBF000E00953749 /* MusicInfoViewController.m */; };
+		7B2931DD1DBF000E00953749 /* MusicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931CA1DBF000E00953749 /* MusicTableViewCell.m */; };
+		7B2931DE1DBF000E00953749 /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931CC1DBF000E00953749 /* MusicViewController.m */; };
+		7B2931DF1DBF000E00953749 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931CD1DBF000E00953749 /* pause.png */; };
+		7B2931E01DBF000E00953749 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931CE1DBF000E00953749 /* snow.png */; };
+		7B2931E11DBF000E00953749 /* start.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931CF1DBF000E00953749 /* start.png */; };
+		7B2931E21DBF000E00953749 /* TrackRoundVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931D11DBF000E00953749 /* TrackRoundVC.m */; };
+		7B2931E31DBF000E00953749 /* TrackRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931D31DBF000E00953749 /* TrackRoundView.m */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B4F2B831DAF812E00581CE4 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F2B591DAF812E00581CE4 /* MJRefreshAutoFooter.m */; };
@@ -1632,6 +1666,69 @@
 		7B2931751DBEFF4B00953749 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
 		7B2931761DBEFF4B00953749 /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
 		7B2931771DBEFF4B00953749 /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
+		7B29317E1DBEFFDC00953749 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
+		7B29317F1DBEFFDC00953749 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
+		7B2931801DBEFFDC00953749 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		7B2931811DBEFFDC00953749 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		7B2931851DBF000200953749 /* CUShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUShowView.h; sourceTree = "<group>"; };
+		7B2931861DBF000200953749 /* CUShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUShowView.m; sourceTree = "<group>"; };
+		7B2931881DBF000200953749 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		7B2931891DBF000200953749 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
+		7B29318A1DBF000200953749 /* IATConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfigViewController.h; sourceTree = "<group>"; };
+		7B29318B1DBF000200953749 /* IATConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfigViewController.m; sourceTree = "<group>"; };
+		7B29318C1DBF000200953749 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
+		7B29318D1DBF000200953749 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		7B29318E1DBF000200953749 /* LLYPhotoCaptionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYPhotoCaptionView.h; sourceTree = "<group>"; };
+		7B29318F1DBF000200953749 /* LLYPhotoCaptionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYPhotoCaptionView.m; sourceTree = "<group>"; };
+		7B2931901DBF000200953749 /* LLYPhotoGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYPhotoGlobal.h; sourceTree = "<group>"; };
+		7B2931911DBF000200953749 /* LLYPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYPhotoImageView.h; sourceTree = "<group>"; };
+		7B2931921DBF000200953749 /* LLYPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYPhotoImageView.m; sourceTree = "<group>"; };
+		7B2931931DBF000200953749 /* LLYPhotoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLYPhotoScrollView.h; sourceTree = "<group>"; };
+		7B2931941DBF000200953749 /* LLYPhotoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLYPhotoScrollView.m; sourceTree = "<group>"; };
+		7B2931951DBF000200953749 /* MyAFNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAFNetWork.h; sourceTree = "<group>"; };
+		7B2931961DBF000200953749 /* MyAFNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAFNetWork.m; sourceTree = "<group>"; };
+		7B2931971DBF000200953749 /* MYPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYPictureView.h; sourceTree = "<group>"; };
+		7B2931981DBF000200953749 /* MYPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYPictureView.m; sourceTree = "<group>"; };
+		7B29319A1DBF000200953749 /* PcmPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		7B29319B1DBF000200953749 /* PcmPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+		7B29319C1DBF000200953749 /* PcmPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PcmPlayerDelegate.h; sourceTree = "<group>"; };
+		7B29319D1DBF000200953749 /* PopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		7B29319E1DBF000200953749 /* PopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		7B29319F1DBF000200953749 /* ShowAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowAlertView.h; sourceTree = "<group>"; };
+		7B2931A01DBF000200953749 /* ShowAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowAlertView.m; sourceTree = "<group>"; };
+		7B2931A21DBF000200953749 /* TTSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
+		7B2931A31DBF000200953749 /* TTSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
+		7B2931A41DBF000200953749 /* TTSConfigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSConfigViewController.h; sourceTree = "<group>"; };
+		7B2931A51DBF000200953749 /* TTSConfigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSConfigViewController.m; sourceTree = "<group>"; };
+		7B2931A61DBF000200953749 /* TTSUIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSUIController.h; sourceTree = "<group>"; };
+		7B2931A71DBF000200953749 /* TTSUIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSUIController.m; sourceTree = "<group>"; };
+		7B2931A81DBF000200953749 /* UIViewController+progressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+progressHud.h"; sourceTree = "<group>"; };
+		7B2931A91DBF000200953749 /* UIViewController+progressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+progressHud.m"; sourceTree = "<group>"; };
+		7B2931BB1DBF000E00953749 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		7B2931BC1DBF000E00953749 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		7B2931BD1DBF000E00953749 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		7B2931BE1DBF000E00953749 /* FMTracksModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMTracksModel.h; sourceTree = "<group>"; };
+		7B2931BF1DBF000E00953749 /* FMTracksModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMTracksModel.m; sourceTree = "<group>"; };
+		7B2931C01DBF000E00953749 /* FSPlayIistItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPlayIistItem.h; sourceTree = "<group>"; };
+		7B2931C11DBF000E00953749 /* FSPlayIistItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPlayIistItem.m; sourceTree = "<group>"; };
+		7B2931C21DBF000E00953749 /* girl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl.png; sourceTree = "<group>"; };
+		7B2931C31DBF000E00953749 /* MIFooterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIFooterTableViewCell.h; sourceTree = "<group>"; };
+		7B2931C41DBF000E00953749 /* MIFooterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIFooterTableViewCell.m; sourceTree = "<group>"; };
+		7B2931C51DBF000E00953749 /* MIHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIHeaderTableViewCell.h; sourceTree = "<group>"; };
+		7B2931C61DBF000E00953749 /* MIHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIHeaderTableViewCell.m; sourceTree = "<group>"; };
+		7B2931C71DBF000E00953749 /* MusicInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicInfoViewController.h; sourceTree = "<group>"; };
+		7B2931C81DBF000E00953749 /* MusicInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicInfoViewController.m; sourceTree = "<group>"; };
+		7B2931C91DBF000E00953749 /* MusicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicTableViewCell.h; sourceTree = "<group>"; };
+		7B2931CA1DBF000E00953749 /* MusicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicTableViewCell.m; sourceTree = "<group>"; };
+		7B2931CB1DBF000E00953749 /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		7B2931CC1DBF000E00953749 /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		7B2931CD1DBF000E00953749 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		7B2931CE1DBF000E00953749 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		7B2931CF1DBF000E00953749 /* start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = start.png; sourceTree = "<group>"; };
+		7B2931D01DBF000E00953749 /* TrackRoundVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackRoundVC.h; sourceTree = "<group>"; };
+		7B2931D11DBF000E00953749 /* TrackRoundVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackRoundVC.m; sourceTree = "<group>"; };
+		7B2931D21DBF000E00953749 /* TrackRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackRoundView.h; sourceTree = "<group>"; };
+		7B2931D31DBF000E00953749 /* TrackRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackRoundView.m; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -3055,6 +3152,114 @@
 			path = GM;
 			sourceTree = "<group>";
 		};
+		7B29317D1DBEFFDC00953749 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				7B29317E1DBEFFDC00953749 /* MyInfoTableViewCell.h */,
+				7B29317F1DBEFFDC00953749 /* MyInfoTableViewCell.m */,
+				7B2931801DBEFFDC00953749 /* MyInfoViewController.h */,
+				7B2931811DBEFFDC00953749 /* MyInfoViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		7B2931841DBF000200953749 /* MYMethods */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931851DBF000200953749 /* CUShowView.h */,
+				7B2931861DBF000200953749 /* CUShowView.m */,
+				7B2931871DBF000200953749 /* isr */,
+				7B29318E1DBF000200953749 /* LLYPhotoCaptionView.h */,
+				7B29318F1DBF000200953749 /* LLYPhotoCaptionView.m */,
+				7B2931901DBF000200953749 /* LLYPhotoGlobal.h */,
+				7B2931911DBF000200953749 /* LLYPhotoImageView.h */,
+				7B2931921DBF000200953749 /* LLYPhotoImageView.m */,
+				7B2931931DBF000200953749 /* LLYPhotoScrollView.h */,
+				7B2931941DBF000200953749 /* LLYPhotoScrollView.m */,
+				7B2931951DBF000200953749 /* MyAFNetWork.h */,
+				7B2931961DBF000200953749 /* MyAFNetWork.m */,
+				7B2931971DBF000200953749 /* MYPictureView.h */,
+				7B2931981DBF000200953749 /* MYPictureView.m */,
+				7B2931991DBF000200953749 /* pcmPlayerCode */,
+				7B29319F1DBF000200953749 /* ShowAlertView.h */,
+				7B2931A01DBF000200953749 /* ShowAlertView.m */,
+				7B2931A11DBF000200953749 /* tts */,
+				7B2931A81DBF000200953749 /* UIViewController+progressHud.h */,
+				7B2931A91DBF000200953749 /* UIViewController+progressHud.m */,
+			);
+			path = MYMethods;
+			sourceTree = "<group>";
+		};
+		7B2931871DBF000200953749 /* isr */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931881DBF000200953749 /* IATConfig.h */,
+				7B2931891DBF000200953749 /* IATConfig.m */,
+				7B29318A1DBF000200953749 /* IATConfigViewController.h */,
+				7B29318B1DBF000200953749 /* IATConfigViewController.m */,
+				7B29318C1DBF000200953749 /* ISRDataHelper.h */,
+				7B29318D1DBF000200953749 /* ISRDataHelper.m */,
+			);
+			path = isr;
+			sourceTree = "<group>";
+		};
+		7B2931991DBF000200953749 /* pcmPlayerCode */ = {
+			isa = PBXGroup;
+			children = (
+				7B29319A1DBF000200953749 /* PcmPlayer.h */,
+				7B29319B1DBF000200953749 /* PcmPlayer.m */,
+				7B29319C1DBF000200953749 /* PcmPlayerDelegate.h */,
+				7B29319D1DBF000200953749 /* PopupView.h */,
+				7B29319E1DBF000200953749 /* PopupView.m */,
+			);
+			path = pcmPlayerCode;
+			sourceTree = "<group>";
+		};
+		7B2931A11DBF000200953749 /* tts */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931A21DBF000200953749 /* TTSConfig.h */,
+				7B2931A31DBF000200953749 /* TTSConfig.m */,
+				7B2931A41DBF000200953749 /* TTSConfigViewController.h */,
+				7B2931A51DBF000200953749 /* TTSConfigViewController.m */,
+				7B2931A61DBF000200953749 /* TTSUIController.h */,
+				7B2931A71DBF000200953749 /* TTSUIController.m */,
+			);
+			path = tts;
+			sourceTree = "<group>";
+		};
+		7B2931BA1DBF000E00953749 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931BB1DBF000E00953749 /* background.jpg */,
+				7B2931BC1DBF000E00953749 /* ball.png */,
+				7B2931BD1DBF000E00953749 /* fire.png */,
+				7B2931BE1DBF000E00953749 /* FMTracksModel.h */,
+				7B2931BF1DBF000E00953749 /* FMTracksModel.m */,
+				7B2931C01DBF000E00953749 /* FSPlayIistItem.h */,
+				7B2931C11DBF000E00953749 /* FSPlayIistItem.m */,
+				7B2931C21DBF000E00953749 /* girl.png */,
+				7B2931C31DBF000E00953749 /* MIFooterTableViewCell.h */,
+				7B2931C41DBF000E00953749 /* MIFooterTableViewCell.m */,
+				7B2931C51DBF000E00953749 /* MIHeaderTableViewCell.h */,
+				7B2931C61DBF000E00953749 /* MIHeaderTableViewCell.m */,
+				7B2931C71DBF000E00953749 /* MusicInfoViewController.h */,
+				7B2931C81DBF000E00953749 /* MusicInfoViewController.m */,
+				7B2931C91DBF000E00953749 /* MusicTableViewCell.h */,
+				7B2931CA1DBF000E00953749 /* MusicTableViewCell.m */,
+				7B2931CB1DBF000E00953749 /* MusicViewController.h */,
+				7B2931CC1DBF000E00953749 /* MusicViewController.m */,
+				7B2931CD1DBF000E00953749 /* pause.png */,
+				7B2931CE1DBF000E00953749 /* snow.png */,
+				7B2931CF1DBF000E00953749 /* start.png */,
+				7B2931D01DBF000E00953749 /* TrackRoundVC.h */,
+				7B2931D11DBF000E00953749 /* TrackRoundVC.m */,
+				7B2931D21DBF000E00953749 /* TrackRoundView.h */,
+				7B2931D31DBF000E00953749 /* TrackRoundView.m */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -3299,6 +3504,7 @@
 			children = (
 				7B5B962D1C101919006F8359 /* Tadpole */,
 				7BD8422D1C115D90004D512C /* ThirdMethod */,
+				7B2931841DBF000200953749 /* MYMethods */,
 				7B91FE161C1A90E300B34D17 /* framework */,
 				7B5B96471C101919006F8359 /* TadpoleTests */,
 				7B5B96521C101919006F8359 /* TadpoleUITests */,
@@ -3320,6 +3526,8 @@
 		7B5B962D1C101919006F8359 /* Tadpole */ = {
 			isa = PBXGroup;
 			children = (
+				7B2931BA1DBF000E00953749 /* Music */,
+				7B29317D1DBEFFDC00953749 /* Mine */,
 				7B29316C1DBEFF4B00953749 /* Scan */,
 				7B29312D1DBEFEAF00953749 /* Libs */,
 				7B2931241DBEFC2B00953749 /* Address */,
@@ -4031,6 +4239,7 @@
 				7B292EAB1DBEF14600953749 /* cat_angry0021.jpg in Resources */,
 				7B292FD31DBEF14600953749 /* cat_knockout0002.jpg in Resources */,
 				7B2437F81C40FEEB00E6673C /* comiisfariji@2x.png in Resources */,
+				7B2931E11DBF000E00953749 /* start.png in Resources */,
 				7B2930BB1DBEF14700953749 /* cat_zeh0019.jpg in Resources */,
 				7BCF6FB71C537D1700F30E31 /* girl.png in Resources */,
 				7B292F701DBEF14600953749 /* cat_foot_left0019.jpg in Resources */,
@@ -4048,6 +4257,7 @@
 				7B292EBD1DBEF14600953749 /* cat_cymbal0010.jpg in Resources */,
 				7B2930EC1DBEF14700953749 /* llY.plist in Resources */,
 				7B292F911DBEF14600953749 /* cat_foot_right0022.jpg in Resources */,
+				7B2931D41DBF000E00953749 /* background.jpg in Resources */,
 				7B292F201DBEF14600953749 /* cat_eat0011.jpg in Resources */,
 				7B292FAA1DBEF14600953749 /* cat_happy0017.jpg in Resources */,
 				7B292F3D1DBEF14600953749 /* gumb-bird2-60.png in Resources */,
@@ -4207,6 +4417,7 @@
 				7B292F8F1DBEF14600953749 /* cat_foot_right0020.jpg in Resources */,
 				7BC573E71C167F050006E540 /* Stars@2x.png in Resources */,
 				7B292F7D1DBEF14600953749 /* cat_foot_right0002.jpg in Resources */,
+				7B2931D61DBF000E00953749 /* fire.png in Resources */,
 				7B2930281DBEF14700953749 /* pie0004.jpg in Resources */,
 				7BC573E31C167EFA0006E540 /* Balloon@2x.png in Resources */,
 				7B2930291DBEF14700953749 /* pie0005.jpg in Resources */,
@@ -4220,6 +4431,7 @@
 				7B29309B1DBEF14700953749 /* cat_talk0003.jpg in Resources */,
 				7BCF6FB01C5366A900F30E31 /* start.png in Resources */,
 				7B292EE81DBEF14600953749 /* cat_drink0038.jpg in Resources */,
+				7B2931DF1DBF000E00953749 /* pause.png in Resources */,
 				7B292F981DBEF14600953749 /* cat_foot_right0029.jpg in Resources */,
 				7B292F401DBEF14600953749 /* cat_fart0001.jpg in Resources */,
 				7B292F2C1DBEF14600953749 /* cat_eat0023.jpg in Resources */,
@@ -4232,6 +4444,7 @@
 				7B292E9A1DBEF14600953749 /* cat_angry0004.jpg in Resources */,
 				7B292F691DBEF14600953749 /* cat_foot_left0012.jpg in Resources */,
 				7B292EBA1DBEF14600953749 /* cat_cymbal0007.jpg in Resources */,
+				7B2931D51DBF000E00953749 /* ball.png in Resources */,
 				7B292ED91DBEF14600953749 /* cat_drink0023.jpg in Resources */,
 				7B29305C1DBEF14700953749 /* Scratch0030.jpg in Resources */,
 				7B2930B81DBEF14700953749 /* cat_zeh0016.jpg in Resources */,
@@ -4429,6 +4642,7 @@
 				7B292FF11DBEF14700953749 /* cat_knockout0032.jpg in Resources */,
 				7B29304B1DBEF14700953749 /* Scratch0013.jpg in Resources */,
 				7B29303D1DBEF14700953749 /* btn_cat_print-60@2x.png in Resources */,
+				7B2931E01DBF000E00953749 /* snow.png in Resources */,
 				7BC573FE1C16B6F10006E540 /* SlotMachineBackground@2x.png in Resources */,
 				7B7524411DB8686E00D627D4 /* clock_circle2@2x.png in Resources */,
 				7B292F771DBEF14600953749 /* cat_foot_left0026.jpg in Resources */,
@@ -4587,6 +4801,7 @@
 				7B2930651DBEF14700953749 /* Scratch0039.jpg in Resources */,
 				7B562A091C3377E800410C96 /* headTitle.png in Resources */,
 				7B292F4E1DBEF14600953749 /* cat_fart0015.jpg in Resources */,
+				7B2931D91DBF000E00953749 /* girl.png in Resources */,
 				7B29300D1DBEF14700953749 /* cat_knockout0060.jpg in Resources */,
 				7B2930711DBEF14700953749 /* Scratch0051.jpg in Resources */,
 				7B292F541DBEF14600953749 /* cat_fart0021.jpg in Resources */,
@@ -4665,11 +4880,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2931AD1DBF000200953749 /* ISRDataHelper.m in Sources */,
 				7B2930F21DBEF14700953749 /* LiveViewController.m in Sources */,
+				7B2931AC1DBF000200953749 /* IATConfigViewController.m in Sources */,
 				7B5363581DBA0635005C0F48 /* AFURLSessionManager.m in Sources */,
 				7BDAD1A21C4746E20060854A /* MIFooterTableViewCell.m in Sources */,
 				7B4F2B891DAF812E00581CE4 /* MJRefreshAutoNormalFooter.m in Sources */,
 				7B7BCCBF1C48DE77008DC956 /* MJFoundation.m in Sources */,
+				7B2931AE1DBF000200953749 /* LLYPhotoCaptionView.m in Sources */,
 				7B4F2BA31DAF81CC00581CE4 /* MJChiBaoZiFooter.m in Sources */,
 				7B5363531DBA0635005C0F48 /* AFHTTPSessionManager.m in Sources */,
 				7B7F94011C1948BA00A56F4F /* CUSViewController.m in Sources */,
@@ -4677,19 +4895,25 @@
 				7B5B96331C101919006F8359 /* AppDelegate.m in Sources */,
 				7B2930E51DBEF14700953749 /* TomBaseViewController.m in Sources */,
 				7B5363431DBA048E005C0F48 /* SVProgressHUD.m in Sources */,
+				7B2931AF1DBF000200953749 /* LLYPhotoImageView.m in Sources */,
 				7B2931681DBEFEAF00953749 /* MJNIndexView.m in Sources */,
 				7B2931211DBEF85200953749 /* HomekindCell.m in Sources */,
 				7B29312A1DBEFC2B00953749 /* AddressViewController.m in Sources */,
 				7B2930F41DBEF14700953749 /* MovieRMTPCreator.m in Sources */,
 				7B29315D1DBEFEAF00953749 /* UITextField+ExtentRange.m in Sources */,
 				7B2930EA1DBEF14700953749 /* LLYMapViewController.m in Sources */,
+				7B2931AA1DBF000200953749 /* CUShowView.m in Sources */,
+				7B2931B81DBF000200953749 /* TTSUIController.m in Sources */,
+				7B2931821DBEFFDC00953749 /* MyInfoTableViewCell.m in Sources */,
 				7BCF6FB31C53672800F30E31 /* TrackRoundView.m in Sources */,
 				7B0ADD7D1C3E5E5800D893C5 /* LoginViewController.m in Sources */,
+				7B2931DA1DBF000E00953749 /* MIFooterTableViewCell.m in Sources */,
 				7BCF6FD61C53855A00F30E31 /* DataSource.m in Sources */,
 				7B4F2BA61DAF81CC00581CE4 /* MJDIYAutoFooter.m in Sources */,
 				7BAED4E51C44E8BC006723FB /* MusicTableViewCell.m in Sources */,
 				7BAED5351C45E5C4006723FB /* UIButton+WebCache.m in Sources */,
 				7BAED5321C45E5C4006723FB /* SDWebImageDownloaderOperation.m in Sources */,
+				7B2931B21DBF000200953749 /* MYPictureView.m in Sources */,
 				7B2931661DBEFEAF00953749 /* ShopViewController.m in Sources */,
 				7B4F2B841DAF812E00581CE4 /* MJRefreshBackFooter.m in Sources */,
 				7B2931601DBEFEAF00953749 /* CUSCollectionViewCell.m in Sources */,
@@ -4705,9 +4929,12 @@
 				7B2931651DBEFEAF00953749 /* RightMenuViewController.m in Sources */,
 				7B2930F81DBEF14700953749 /* TableViewDelegate.m in Sources */,
 				7B29311B1DBEF85200953749 /* ProduceInfoViewController.m in Sources */,
+				7B2931B31DBF000200953749 /* PcmPlayer.m in Sources */,
 				7B29311F1DBEF85200953749 /* CountDownView.m in Sources */,
+				7B2931DD1DBF000E00953749 /* MusicTableViewCell.m in Sources */,
 				7BAA7FD91C4344E200299D32 /* MyInfoViewController.m in Sources */,
 				7B2931201DBEF85200953749 /* HistoryTableViewCell.m in Sources */,
+				7B2931B41DBF000200953749 /* PopupView.m in Sources */,
 				7B9CF9BC1C44A917000BF93D /* SettingViewController.m in Sources */,
 				7B5363541DBA0635005C0F48 /* AFNetworkReachabilityManager.m in Sources */,
 				7B2930E61DBEF14700953749 /* TomMainVC.mm in Sources */,
@@ -4724,11 +4951,14 @@
 				7B29311A1DBEF85200953749 /* HomeModel.m in Sources */,
 				7B4F2B8E1DAF812E00581CE4 /* MJRefreshGifHeader.m in Sources */,
 				7B4F2B951DAF812E00581CE4 /* UIView+MJExtension.m in Sources */,
+				7B2931B71DBF000200953749 /* TTSConfigViewController.m in Sources */,
 				7B701B571C21523300263B30 /* PopupView.m in Sources */,
 				7B4F2BA41DAF81CC00581CE4 /* MJChiBaoZiFooter2.m in Sources */,
 				7B2931231DBEF85200953749 /* RushBuyCell.m in Sources */,
 				7B7F94081C195E8900A56F4F /* CUSSenderLayer.m in Sources */,
 				7B4F2B931DAF812E00581CE4 /* UIScrollView+MJExtension.m in Sources */,
+				7B2931E21DBF000E00953749 /* TrackRoundVC.m in Sources */,
+				7B2931AB1DBF000200953749 /* IATConfig.m in Sources */,
 				7BAED53B1C45E5C4006723FB /* UIView+WebCacheOperation.m in Sources */,
 				7B7BCCC01C48DE77008DC956 /* MJIvar.m in Sources */,
 				7B2931691DBEFEAF00953749 /* MyTextField.m in Sources */,
@@ -4737,11 +4967,14 @@
 				7B2930E71DBEF14700953749 /* KCAnnotation.m in Sources */,
 				7B2931791DBEFF4B00953749 /* syscan_bmp_read_write.c in Sources */,
 				7BC1365E1C3136A8008969D2 /* RECommonFunctions.m in Sources */,
+				7B2931B61DBF000200953749 /* TTSConfig.m in Sources */,
 				7B4F2BA81DAF81CC00581CE4 /* MJDIYHeader.m in Sources */,
 				7B5363561DBA0635005C0F48 /* AFURLRequestSerialization.m in Sources */,
+				7B2931B91DBF000200953749 /* UIViewController+progressHud.m in Sources */,
 				7B7BCCBD1C48DE77008DC956 /* MJArgument.m in Sources */,
 				7B7BCCC11C48DE77008DC956 /* MJMember.m in Sources */,
 				7BC573EC1C16A4580006E540 /* ZCSlotMachine.m in Sources */,
+				7B2931DB1DBF000E00953749 /* MIHeaderTableViewCell.m in Sources */,
 				7BC136601C3136A8008969D2 /* UIViewController+RESideMenu.m in Sources */,
 				7B02821B1DB7445C0007E704 /* VoiceViewController.m in Sources */,
 				7B2930EE1DBEF14700953749 /* RLBaseDateTools.m in Sources */,
@@ -4756,6 +4989,7 @@
 				7B29312B1DBEFC2B00953749 /* CityTableViewCell.m in Sources */,
 				7B2930ED1DBEF14700953749 /* RLBaseDateModel.m in Sources */,
 				7B2931171DBEF85200953749 /* ADViewController.m in Sources */,
+				7B2931DE1DBF000E00953749 /* MusicViewController.m in Sources */,
 				7BAED53A1C45E5C4006723FB /* UIImageView+WebCache.m in Sources */,
 				7B2931641DBEFEAF00953749 /* ProduceInfoViewController.m in Sources */,
 				7BCF6FD71C53855A00F30E31 /* DataSourceWrapper.m in Sources */,
@@ -4767,8 +5001,10 @@
 				7BAED5331C45E5C4006723FB /* SDWebImageManager.m in Sources */,
 				7B4F2B881DAF812E00581CE4 /* MJRefreshAutoGifFooter.m in Sources */,
 				7B7BCCC31C48DE77008DC956 /* MJType.m in Sources */,
+				7B2931B51DBF000200953749 /* ShowAlertView.m in Sources */,
 				7BCF6FAB1C53652F00F30E31 /* TrackRoundVC.m in Sources */,
 				7B2930EF1DBEF14700953749 /* SignVC.m in Sources */,
+				7B2931B01DBF000200953749 /* LLYPhotoScrollView.m in Sources */,
 				7B29311C1DBEF85200953749 /* ProduceSearchVC.m in Sources */,
 				7B701B6B1C2156CB00263B30 /* TTSUIController.m in Sources */,
 				7BDAD19C1C4736440060854A /* MusicInfoViewController.m in Sources */,
@@ -4784,9 +5020,11 @@
 				7BAED5361C45E5C4006723FB /* UIImage+GIF.m in Sources */,
 				7B5363571DBA0635005C0F48 /* AFURLResponseSerialization.m in Sources */,
 				7B2931221DBEF85200953749 /* HomeTopScrCell.m in Sources */,
+				7B2931E31DBF000E00953749 /* TrackRoundView.m in Sources */,
 				7B701B541C2151F100263B30 /* PcmPlayer.m in Sources */,
 				7B5363551DBA0635005C0F48 /* AFSecurityPolicy.m in Sources */,
 				7B4F2B861DAF812E00581CE4 /* MJRefreshFooter.m in Sources */,
+				7B2931D81DBF000E00953749 /* FSPlayIistItem.m in Sources */,
 				7B2930F91DBEF14700953749 /* DataTableViewCell.m in Sources */,
 				7BDAD19F1C473C9C0060854A /* MIHeaderTableViewCell.m in Sources */,
 				7B2930F11DBEF14700953749 /* Configure.m in Sources */,
@@ -4804,6 +5042,7 @@
 				7B81129D1C2677830083C849 /* main.m in Sources */,
 				7B7BCCC21C48DE77008DC956 /* MJMethod.m in Sources */,
 				7BC136561C2FB5F7008969D2 /* LLYPhotoCaptionView.m in Sources */,
+				7B2931831DBEFFDC00953749 /* MyInfoViewController.m in Sources */,
 				7B29315A1DBEFEAF00953749 /* NSTimer+Addition.m in Sources */,
 				7B4F2B8C1DAF812E00581CE4 /* MJRefreshBackNormalFooter.m in Sources */,
 				7B2931611DBEFEAF00953749 /* LeftMenuViewController.m in Sources */,
@@ -4829,14 +5068,17 @@
 				7B2930C71DBEF14700953749 /* SCListener.m in Sources */,
 				7B4F2B921DAF812E00581CE4 /* MJRefreshConst.m in Sources */,
 				7BAED4EA1C44F1C1006723FB /* MyAFNetWork.m in Sources */,
+				7B2931D71DBF000E00953749 /* FMTracksModel.m in Sources */,
 				7B29316B1DBEFEAF00953749 /* UIViewController+progrssHud.m in Sources */,
 				7B2931591DBEFEAF00953749 /* NSDate+RLBaseCalendar.m in Sources */,
 				7BCF6FD51C53855A00F30E31 /* CoreFoundationDataSource.m in Sources */,
 				7BB9F6681C4C8D7A00297D52 /* FSPlayIistItem.m in Sources */,
 				7B29317A1DBEFF4B00953749 /* ScanResultViewController.m in Sources */,
 				7B29315B1DBEFEAF00953749 /* SharpLabel.m in Sources */,
+				7B2931DC1DBF000E00953749 /* MusicInfoViewController.m in Sources */,
 				7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */,
 				7B7BCCC51C48DE77008DC956 /* NSObject+MJCoding.m in Sources */,
+				7B2931B11DBF000200953749 /* MyAFNetWork.m in Sources */,
 				7BD9BE431C4899E4008F69F1 /* FMTracksModel.m in Sources */,
 				7B8112851C263B160083C849 /* UIViewController+progressHud.m in Sources */,
 				7B7BCCBE1C48DE77008DC956 /* MJConst.m in Sources */,
