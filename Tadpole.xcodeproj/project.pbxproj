@@ -789,6 +789,8 @@
 		7B2933771DBF0D2E00953749 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933721DBF0D2E00953749 /* RECommonFunctions.m */; };
 		7B2933781DBF0D2E00953749 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933741DBF0D2E00953749 /* RESideMenu.m */; };
 		7B2933791DBF0D2E00953749 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933761DBF0D2E00953749 /* UIViewController+RESideMenu.m */; };
+		7B29337D1DBF0E0C00953749 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29337C1DBF0E0C00953749 /* KeychainItemWrapper.m */; };
+		7B2933811DBF0EA000953749 /* ZCSlotMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933801DBF0EA000953749 /* ZCSlotMachine.m */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B53630D1DB9FDE4005C0F48 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53630C1DB9FDE4005C0F48 /* CoreAudio.framework */; };
@@ -1893,6 +1895,10 @@
 		7B2933741DBF0D2E00953749 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
 		7B2933751DBF0D2E00953749 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
 		7B2933761DBF0D2E00953749 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		7B29337B1DBF0E0C00953749 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		7B29337C1DBF0E0C00953749 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		7B29337F1DBF0EA000953749 /* ZCSlotMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCSlotMachine.h; sourceTree = "<group>"; };
+		7B2933801DBF0EA000953749 /* ZCSlotMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCSlotMachine.m; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -3244,6 +3250,8 @@
 		7B2932501DBF0BFA00953749 /* ThirdMethod */ = {
 			isa = PBXGroup;
 			children = (
+				7B29337E1DBF0EA000953749 /* ZCSlotMachine */,
+				7B29337A1DBF0DFA00953749 /* KeychainItemWrapper */,
 				7B2933701DBF0D2E00953749 /* RESideMenu */,
 				7B2932511DBF0BFA00953749 /* AFNetworking3.0 */,
 				7B29325F1DBF0BFA00953749 /* business */,
@@ -3608,6 +3616,24 @@
 				7B2933761DBF0D2E00953749 /* UIViewController+RESideMenu.m */,
 			);
 			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		7B29337A1DBF0DFA00953749 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				7B29337B1DBF0E0C00953749 /* KeychainItemWrapper.h */,
+				7B29337C1DBF0E0C00953749 /* KeychainItemWrapper.m */,
+			);
+			path = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		7B29337E1DBF0EA000953749 /* ZCSlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				7B29337F1DBF0EA000953749 /* ZCSlotMachine.h */,
+				7B2933801DBF0EA000953749 /* ZCSlotMachine.m */,
+			);
+			path = ZCSlotMachine;
 			sourceTree = "<group>";
 		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
@@ -4925,6 +4951,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B2933811DBF0EA000953749 /* ZCSlotMachine.m in Sources */,
 				7B2933411DBF0BFA00953749 /* ReachStateUnReachable.m in Sources */,
 				7B2933491DBF0BFA00953749 /* SDImageCache.m in Sources */,
 				7B2930F21DBEF14700953749 /* LiveViewController.m in Sources */,
@@ -5113,6 +5140,7 @@
 				7B2930C71DBEF14700953749 /* SCListener.m in Sources */,
 				7BAED4EA1C44F1C1006723FB /* MyAFNetWork.m in Sources */,
 				7B2933391DBF0BFA00953749 /* UIScrollView+MJRefresh.m in Sources */,
+				7B29337D1DBF0E0C00953749 /* KeychainItemWrapper.m in Sources */,
 				7B2931D71DBF000E00953749 /* FMTracksModel.m in Sources */,
 				7B29316B1DBEFEAF00953749 /* UIViewController+progrssHud.m in Sources */,
 				7B2933641DBF0BFB00953749 /* SBJson4StreamWriterState.m in Sources */,
