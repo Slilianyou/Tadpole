@@ -306,7 +306,9 @@
     
     //
     UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [rightBtn setImage:[UIImage imageNamed:@"userconfig.png"] forState:UIControlStateNormal];
+//    [rightBtn setImage:[UIImage imageNamed:@"userconfig.png"] forState:UIControlStateNormal];
+    [rightBtn setTitle:@"注册" forState:UIControlStateNormal];
+    [rightBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
     [rightBtn addTarget:self action:@selector(presentRightMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
     rightBtn.frame = CGRectMake(0 , 0,30,  30);
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:rightBtn];
@@ -315,7 +317,8 @@
 
 - (void)presentLeftMenuViewController:(id)sender
 {
-    [self.sideMenuViewController presentLeftMenuViewController];
+//    [self.sideMenuViewController presentLeftMenuViewController];
+    [self.navigationController dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (void)presentRightMenuViewController:(id)sender

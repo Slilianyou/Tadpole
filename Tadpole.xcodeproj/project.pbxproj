@@ -792,6 +792,11 @@
 		7B2933A41DBF262900953749 /* EAFRead.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933A11DBF262900953749 /* EAFRead.mm */; };
 		7B2933A51DBF262900953749 /* EAFWrite.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933A31DBF262900953749 /* EAFWrite.mm */; };
 		7B2933A71DBF265A00953749 /* libDIRAC_iOS4-fat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2933A61DBF265A00953749 /* libDIRAC_iOS4-fat.a */; };
+		7B2933B31DBF3D5100953749 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933B21DBF3D5100953749 /* MineViewController.m */; };
+		7B2933B61DBF3DC500953749 /* UserImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933B51DBF3DC500953749 /* UserImageCell.m */; };
+		7B2933B91DBF3F5200953749 /* OutLoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933B81DBF3F5200953749 /* OutLoginTableViewCell.m */; };
+		7B2933BC1DBF40CF00953749 /* user_protrait_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2933BB1DBF40CF00953749 /* user_protrait_default@2x.png */; };
+		7B2933C21DBF4DCD00953749 /* User_portrait_Indicator@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2933C11DBF4DCD00953749 /* User_portrait_Indicator@2x.png */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B53630D1DB9FDE4005C0F48 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53630C1DB9FDE4005C0F48 /* CoreAudio.framework */; };
 		7B53630F1DB9FDFA005C0F48 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53630E1DB9FDFA005C0F48 /* Accelerate.framework */; };
@@ -821,7 +826,6 @@
 		7B75246A1DB8740B00D627D4 /* kakalib_scan_ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B7524691DB8740B00D627D4 /* kakalib_scan_ray.png */; };
 		7B75246C1DB88BFA00D627D4 /* ocr_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B75246B1DB88BFA00D627D4 /* ocr_back.png */; };
 		7B7D97CE1C23B18500363D92 /* SlotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D97CD1C23B18500363D92 /* SlotViewController.m */; };
-		7B7D97D21C23B50B00363D92 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7D97D11C23B50B00363D92 /* MineViewController.m */; };
 		7B7F94011C1948BA00A56F4F /* CUSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F94001C1948BA00A56F4F /* CUSViewController.m */; };
 		7B7F94081C195E8900A56F4F /* CUSSenderLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F94071C195E8900A56F4F /* CUSSenderLayer.m */; };
 		7B7F940B1C195F0100A56F4F /* CUSSenderFallLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B7F940A1C195F0100A56F4F /* CUSSenderFallLayer.m */; };
@@ -1878,6 +1882,14 @@
 		7B2933A21DBF262900953749 /* EAFWrite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAFWrite.h; sourceTree = "<group>"; };
 		7B2933A31DBF262900953749 /* EAFWrite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAFWrite.mm; sourceTree = "<group>"; };
 		7B2933A61DBF265A00953749 /* libDIRAC_iOS4-fat.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libDIRAC_iOS4-fat.a"; sourceTree = "<group>"; };
+		7B2933B11DBF3D5100953749 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		7B2933B21DBF3D5100953749 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		7B2933B41DBF3DC500953749 /* UserImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserImageCell.h; sourceTree = "<group>"; };
+		7B2933B51DBF3DC500953749 /* UserImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserImageCell.m; sourceTree = "<group>"; };
+		7B2933B71DBF3F5200953749 /* OutLoginTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutLoginTableViewCell.h; sourceTree = "<group>"; };
+		7B2933B81DBF3F5200953749 /* OutLoginTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutLoginTableViewCell.m; sourceTree = "<group>"; };
+		7B2933BB1DBF40CF00953749 /* user_protrait_default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user_protrait_default@2x.png"; sourceTree = "<group>"; };
+		7B2933C11DBF4DCD00953749 /* User_portrait_Indicator@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "User_portrait_Indicator@2x.png"; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -1937,8 +1949,6 @@
 		7B7B727F1C228E98002D2BBB /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
 		7B7D97CC1C23B18500363D92 /* SlotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlotViewController.h; sourceTree = "<group>"; };
 		7B7D97CD1C23B18500363D92 /* SlotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlotViewController.m; sourceTree = "<group>"; };
-		7B7D97D01C23B50B00363D92 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		7B7D97D11C23B50B00363D92 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		7B7F93FF1C1948BA00A56F4F /* CUSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSViewController.h; sourceTree = "<group>"; };
 		7B7F94001C1948BA00A56F4F /* CUSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSViewController.m; sourceTree = "<group>"; };
 		7B7F94061C195E8900A56F4F /* CUSSenderLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSSenderLayer.h; sourceTree = "<group>"; };
@@ -3120,10 +3130,9 @@
 		7B29317D1DBEFFDC00953749 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
-				7B29317E1DBEFFDC00953749 /* MyInfoTableViewCell.h */,
-				7B29317F1DBEFFDC00953749 /* MyInfoTableViewCell.m */,
-				7B2931801DBEFFDC00953749 /* MyInfoViewController.h */,
-				7B2931811DBEFFDC00953749 /* MyInfoViewController.m */,
+				7B2933B01DBF38D300953749 /* Viewcontrollers */,
+				7B2933AF1DBF38C300953749 /* Model */,
+				7B2933AE1DBF38BA00953749 /* View */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -3627,6 +3636,45 @@
 			path = Tom;
 			sourceTree = "<group>";
 		};
+		7B2933AE1DBF38BA00953749 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7B2933B41DBF3DC500953749 /* UserImageCell.h */,
+				7B2933B51DBF3DC500953749 /* UserImageCell.m */,
+				7B29317E1DBEFFDC00953749 /* MyInfoTableViewCell.h */,
+				7B29317F1DBEFFDC00953749 /* MyInfoTableViewCell.m */,
+				7B2933B71DBF3F5200953749 /* OutLoginTableViewCell.h */,
+				7B2933B81DBF3F5200953749 /* OutLoginTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7B2933AF1DBF38C300953749 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7B2933B01DBF38D300953749 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931801DBEFFDC00953749 /* MyInfoViewController.h */,
+				7B2931811DBEFFDC00953749 /* MyInfoViewController.m */,
+				7B2933B11DBF3D5100953749 /* MineViewController.h */,
+				7B2933B21DBF3D5100953749 /* MineViewController.m */,
+			);
+			name = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		7B2933BA1DBF40C900953749 /* Default_Images */ = {
+			isa = PBXGroup;
+			children = (
+				7B2933BB1DBF40CF00953749 /* user_protrait_default@2x.png */,
+			);
+			path = Default_Images;
+			sourceTree = "<group>";
+		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -3661,7 +3709,6 @@
 				7B91FE341C1AB74F00B34D17 /* MYMethods */,
 				7B91FE191C1A915600B34D17 /* UITabbarImages */,
 				7B5D5DE11C158390008C20A5 /* Image */,
-				7B7D97CF1C23B4F700363D92 /* Wode */,
 				7BC573CC1C1679350006E540 /* Lottery */,
 				7B5D5DDA1C1578F0008C20A5 /* SpeechToText */,
 			);
@@ -3671,6 +3718,8 @@
 		7B4F2B511DAF7BB300581CE4 /* Res */ = {
 			isa = PBXGroup;
 			children = (
+				7B2933C11DBF4DCD00953749 /* User_portrait_Indicator@2x.png */,
+				7B2933BA1DBF40C900953749 /* Default_Images */,
 				7B75246B1DB88BFA00D627D4 /* ocr_back.png */,
 				7B7524691DB8740B00D627D4 /* kakalib_scan_ray.png */,
 				7B7524671DB8740100D627D4 /* point@2x.png */,
@@ -3879,15 +3928,6 @@
 				7B7B727F1C228E98002D2BBB /* ISRDataHelper.m */,
 			);
 			path = isr;
-			sourceTree = "<group>";
-		};
-		7B7D97CF1C23B4F700363D92 /* Wode */ = {
-			isa = PBXGroup;
-			children = (
-				7B7D97D01C23B50B00363D92 /* MineViewController.h */,
-				7B7D97D11C23B50B00363D92 /* MineViewController.m */,
-			);
-			path = Wode;
 			sourceTree = "<group>";
 		};
 		7B7D97D31C23D3FE00363D92 /* LoadingImage */ = {
@@ -4724,6 +4764,7 @@
 				7B2930271DBEF14700953749 /* pie0003.jpg in Resources */,
 				7B29302F1DBEF14700953749 /* pie0011.jpg in Resources */,
 				7B2930C51DBEF14700953749 /* cat_zeh0029.jpg in Resources */,
+				7B2933C21DBF4DCD00953749 /* User_portrait_Indicator@2x.png in Resources */,
 				7BBD03481DB075D1001B74D3 /* Main_NaviLeftBarItem_ToRight@2x.png in Resources */,
 				7BC573E61C167F050006E540 /* MenuBackground@2x.png in Resources */,
 				7B2930201DBEF14700953749 /* cat_knockout0079.jpg in Resources */,
@@ -4854,6 +4895,7 @@
 				7B292F8D1DBEF14600953749 /* cat_foot_right0018.jpg in Resources */,
 				7B292F9E1DBEF14600953749 /* cat_happy0005.jpg in Resources */,
 				7B2930C91DBEF14700953749 /* cymbal.wav in Resources */,
+				7B2933BC1DBF40CF00953749 /* user_protrait_default@2x.png in Resources */,
 				7B2930071DBEF14700953749 /* cat_knockout0054.jpg in Resources */,
 				7B29307B1DBEF14700953749 /* cat_stomach0005.jpg in Resources */,
 				7B292F2E1DBEF14600953749 /* cat_eat0025.jpg in Resources */,
@@ -5008,7 +5050,6 @@
 				7B7F940B1C195F0100A56F4F /* CUSSenderFallLayer.m in Sources */,
 				7B2931581DBEFEAF00953749 /* AYCheckManager.m in Sources */,
 				7B2933581DBF0BFB00953749 /* SVProgressAnimatedView.m in Sources */,
-				7B7D97D21C23B50B00363D92 /* MineViewController.m in Sources */,
 				7B2933221DBF0BFA00953749 /* MJDIYBackFooter.m in Sources */,
 				7B2933421DBF0BFA00953749 /* ReachStateWIFI.m in Sources */,
 				7B29324F1DBF0AB500953749 /* UIViewController+progressHud.m in Sources */,
@@ -5062,8 +5103,10 @@
 				7B2933201DBF0BFA00953749 /* MJChiBaoZiHeader.m in Sources */,
 				7B2933911DBF0F0300953749 /* AudioPlayer.m in Sources */,
 				7B2930F61DBEF14700953749 /* MovieRMTPMovieRMTP.m in Sources */,
+				7B2933B91DBF3F5200953749 /* OutLoginTableViewCell.m in Sources */,
 				7B29311D1DBEF85200953749 /* ShopViewController.m in Sources */,
 				7B29324C1DBF0AB500953749 /* TTSConfig.m in Sources */,
+				7B2933B61DBF3DC500953749 /* UserImageCell.m in Sources */,
 				7B29331F1DBF0BFA00953749 /* MJChiBaoZiFooter2.m in Sources */,
 				7B2930E81DBEF14700953749 /* KCCalloutAnnotation.m in Sources */,
 				7BB135341C44C82F007892ED /* MusicViewController.m in Sources */,
@@ -5091,6 +5134,7 @@
 				7B29332B1DBF0BFA00953749 /* MJRefreshFooter.m in Sources */,
 				7B2933971DBF0F0300953749 /* LocalFileDataSource.m in Sources */,
 				7B2933921DBF0F0300953749 /* AutoRecoveringHttpDataSource.m in Sources */,
+				7B2933B31DBF3D5100953749 /* MineViewController.m in Sources */,
 				7B81129D1C2677830083C849 /* main.m in Sources */,
 				7B2932471DBF0AB500953749 /* MyAFNetWork.m in Sources */,
 				7B29335D1DBF0BFB00953749 /* PcmPlayer.m in Sources */,

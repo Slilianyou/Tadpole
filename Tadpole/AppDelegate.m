@@ -19,6 +19,8 @@
 // 版本更新
 #import "AYCheckManager.h"
 
+#import "MineViewController.h"
+
 @interface AppDelegate ()
 
 
@@ -143,8 +145,14 @@
     [musciItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor lightGrayColor]} forState:UIControlStateSelected];
     musciNai.tabBarItem = musciItem;
     
+    // luck
+    UINavigationController *mineNai = [[UINavigationController alloc]initWithRootViewController:[[MineViewController alloc]init]];
+    UITabBarItem *mineItem = [[UITabBarItem alloc]initWithTitle:@"我的" image:[[UIImage imageNamed:@"Luck_moren"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal] selectedImage:[[UIImage imageNamed:@"Luck"]imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]];
+    [mineItem setTitleTextAttributes:@{NSForegroundColorAttributeName:GetColor(149, 149, 149, 1)} forState:UIControlStateNormal];
+    [mineItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor lightGrayColor]} forState:UIControlStateSelected];
+    mineNai.tabBarItem = mineItem;
    
-    NSArray *array = [NSArray arrayWithObjects:mainNavi,microNav,luckNav,musciNai, nil];
+    NSArray *array = [NSArray arrayWithObjects:mainNavi,microNav,luckNav,musciNai,mineNai, nil];
     self.tbc = [[UITabBarController alloc]init];
     self.tbc.tabBar.backgroundColor = [UIColor whiteColor];
     self.tbc.viewControllers = array;
