@@ -651,6 +651,26 @@
 		7B29312A1DBEFC2B00953749 /* AddressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931261DBEFC2B00953749 /* AddressViewController.m */; };
 		7B29312B1DBEFC2B00953749 /* CityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931281DBEFC2B00953749 /* CityTableViewCell.m */; };
 		7B29312C1DBEFC2B00953749 /* welcome_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B2931291DBEFC2B00953749 /* welcome_background.png */; };
+		7B2931581DBEFEAF00953749 /* AYCheckManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29312F1DBEFEAF00953749 /* AYCheckManager.m */; };
+		7B2931591DBEFEAF00953749 /* NSDate+RLBaseCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931321DBEFEAF00953749 /* NSDate+RLBaseCalendar.m */; };
+		7B29315A1DBEFEAF00953749 /* NSTimer+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931341DBEFEAF00953749 /* NSTimer+Addition.m */; };
+		7B29315B1DBEFEAF00953749 /* SharpLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931361DBEFEAF00953749 /* SharpLabel.m */; };
+		7B29315C1DBEFEAF00953749 /* UIButton+Set.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931381DBEFEAF00953749 /* UIButton+Set.m */; };
+		7B29315D1DBEFEAF00953749 /* UITextField+ExtentRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29313A1DBEFEAF00953749 /* UITextField+ExtentRange.m */; };
+		7B29315E1DBEFEAF00953749 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29313C1DBEFEAF00953749 /* UIView+Frame.m */; };
+		7B29315F1DBEFEAF00953749 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29313F1DBEFEAF00953749 /* ADViewController.m */; };
+		7B2931601DBEFEAF00953749 /* CUSCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931411DBEFEAF00953749 /* CUSCollectionViewCell.m */; };
+		7B2931611DBEFEAF00953749 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931431DBEFEAF00953749 /* LeftMenuViewController.m */; };
+		7B2931621DBEFEAF00953749 /* MainTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931451DBEFEAF00953749 /* MainTabCell.m */; };
+		7B2931631DBEFEAF00953749 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931471DBEFEAF00953749 /* MainViewController.m */; };
+		7B2931641DBEFEAF00953749 /* ProduceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931491DBEFEAF00953749 /* ProduceInfoViewController.m */; };
+		7B2931651DBEFEAF00953749 /* RightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29314B1DBEFEAF00953749 /* RightMenuViewController.m */; };
+		7B2931661DBEFEAF00953749 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29314D1DBEFEAF00953749 /* ShopViewController.m */; };
+		7B2931671DBEFEAF00953749 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29314F1DBEFEAF00953749 /* LoadingView.m */; };
+		7B2931681DBEFEAF00953749 /* MJNIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931511DBEFEAF00953749 /* MJNIndexView.m */; };
+		7B2931691DBEFEAF00953749 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931531DBEFEAF00953749 /* MyTextField.m */; };
+		7B29316A1DBEFEAF00953749 /* SharpLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931551DBEFEAF00953749 /* SharpLabel.m */; };
+		7B29316B1DBEFEAF00953749 /* UIViewController+progrssHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931571DBEFEAF00953749 /* UIViewController+progrssHud.m */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B4F2B831DAF812E00581CE4 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F2B591DAF812E00581CE4 /* MJRefreshAutoFooter.m */; };
@@ -1557,6 +1577,46 @@
 		7B2931271DBEFC2B00953749 /* CityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityTableViewCell.h; sourceTree = "<group>"; };
 		7B2931281DBEFC2B00953749 /* CityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityTableViewCell.m; sourceTree = "<group>"; };
 		7B2931291DBEFC2B00953749 /* welcome_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome_background.png; sourceTree = "<group>"; };
+		7B29312E1DBEFEAF00953749 /* AYCheckManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYCheckManager.h; sourceTree = "<group>"; };
+		7B29312F1DBEFEAF00953749 /* AYCheckManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYCheckManager.m; sourceTree = "<group>"; };
+		7B2931311DBEFEAF00953749 /* NSDate+RLBaseCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RLBaseCalendar.h"; sourceTree = "<group>"; };
+		7B2931321DBEFEAF00953749 /* NSDate+RLBaseCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RLBaseCalendar.m"; sourceTree = "<group>"; };
+		7B2931331DBEFEAF00953749 /* NSTimer+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Addition.h"; sourceTree = "<group>"; };
+		7B2931341DBEFEAF00953749 /* NSTimer+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Addition.m"; sourceTree = "<group>"; };
+		7B2931351DBEFEAF00953749 /* SharpLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharpLabel.h; sourceTree = "<group>"; };
+		7B2931361DBEFEAF00953749 /* SharpLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharpLabel.m; sourceTree = "<group>"; };
+		7B2931371DBEFEAF00953749 /* UIButton+Set.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Set.h"; sourceTree = "<group>"; };
+		7B2931381DBEFEAF00953749 /* UIButton+Set.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Set.m"; sourceTree = "<group>"; };
+		7B2931391DBEFEAF00953749 /* UITextField+ExtentRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+ExtentRange.h"; sourceTree = "<group>"; };
+		7B29313A1DBEFEAF00953749 /* UITextField+ExtentRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+ExtentRange.m"; sourceTree = "<group>"; };
+		7B29313B1DBEFEAF00953749 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		7B29313C1DBEFEAF00953749 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		7B29313E1DBEFEAF00953749 /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		7B29313F1DBEFEAF00953749 /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		7B2931401DBEFEAF00953749 /* CUSCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUSCollectionViewCell.h; sourceTree = "<group>"; };
+		7B2931411DBEFEAF00953749 /* CUSCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUSCollectionViewCell.m; sourceTree = "<group>"; };
+		7B2931421DBEFEAF00953749 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		7B2931431DBEFEAF00953749 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		7B2931441DBEFEAF00953749 /* MainTabCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabCell.h; sourceTree = "<group>"; };
+		7B2931451DBEFEAF00953749 /* MainTabCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabCell.m; sourceTree = "<group>"; };
+		7B2931461DBEFEAF00953749 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7B2931471DBEFEAF00953749 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7B2931481DBEFEAF00953749 /* ProduceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProduceInfoViewController.h; sourceTree = "<group>"; };
+		7B2931491DBEFEAF00953749 /* ProduceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProduceInfoViewController.m; sourceTree = "<group>"; };
+		7B29314A1DBEFEAF00953749 /* RightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightMenuViewController.h; sourceTree = "<group>"; };
+		7B29314B1DBEFEAF00953749 /* RightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightMenuViewController.m; sourceTree = "<group>"; };
+		7B29314C1DBEFEAF00953749 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		7B29314D1DBEFEAF00953749 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		7B29314E1DBEFEAF00953749 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		7B29314F1DBEFEAF00953749 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		7B2931501DBEFEAF00953749 /* MJNIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNIndexView.h; sourceTree = "<group>"; };
+		7B2931511DBEFEAF00953749 /* MJNIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNIndexView.m; sourceTree = "<group>"; };
+		7B2931521DBEFEAF00953749 /* MyTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextField.h; sourceTree = "<group>"; };
+		7B2931531DBEFEAF00953749 /* MyTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextField.m; sourceTree = "<group>"; };
+		7B2931541DBEFEAF00953749 /* SharpLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharpLabel.h; sourceTree = "<group>"; };
+		7B2931551DBEFEAF00953749 /* SharpLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharpLabel.m; sourceTree = "<group>"; };
+		7B2931561DBEFEAF00953749 /* UIViewController+progrssHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+progrssHud.h"; sourceTree = "<group>"; };
+		7B2931571DBEFEAF00953749 /* UIViewController+progrssHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+progrssHud.m"; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -2891,6 +2951,69 @@
 			path = Address;
 			sourceTree = "<group>";
 		};
+		7B29312D1DBEFEAF00953749 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7B29312E1DBEFEAF00953749 /* AYCheckManager.h */,
+				7B29312F1DBEFEAF00953749 /* AYCheckManager.m */,
+				7B2931301DBEFEAF00953749 /* CateGory */,
+				7B29313D1DBEFEAF00953749 /* Home */,
+				7B29314E1DBEFEAF00953749 /* LoadingView.h */,
+				7B29314F1DBEFEAF00953749 /* LoadingView.m */,
+				7B2931501DBEFEAF00953749 /* MJNIndexView.h */,
+				7B2931511DBEFEAF00953749 /* MJNIndexView.m */,
+				7B2931521DBEFEAF00953749 /* MyTextField.h */,
+				7B2931531DBEFEAF00953749 /* MyTextField.m */,
+				7B2931541DBEFEAF00953749 /* SharpLabel.h */,
+				7B2931551DBEFEAF00953749 /* SharpLabel.m */,
+				7B2931561DBEFEAF00953749 /* UIViewController+progrssHud.h */,
+				7B2931571DBEFEAF00953749 /* UIViewController+progrssHud.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		7B2931301DBEFEAF00953749 /* CateGory */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931311DBEFEAF00953749 /* NSDate+RLBaseCalendar.h */,
+				7B2931321DBEFEAF00953749 /* NSDate+RLBaseCalendar.m */,
+				7B2931331DBEFEAF00953749 /* NSTimer+Addition.h */,
+				7B2931341DBEFEAF00953749 /* NSTimer+Addition.m */,
+				7B2931351DBEFEAF00953749 /* SharpLabel.h */,
+				7B2931361DBEFEAF00953749 /* SharpLabel.m */,
+				7B2931371DBEFEAF00953749 /* UIButton+Set.h */,
+				7B2931381DBEFEAF00953749 /* UIButton+Set.m */,
+				7B2931391DBEFEAF00953749 /* UITextField+ExtentRange.h */,
+				7B29313A1DBEFEAF00953749 /* UITextField+ExtentRange.m */,
+				7B29313B1DBEFEAF00953749 /* UIView+Frame.h */,
+				7B29313C1DBEFEAF00953749 /* UIView+Frame.m */,
+			);
+			path = CateGory;
+			sourceTree = "<group>";
+		};
+		7B29313D1DBEFEAF00953749 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7B29313E1DBEFEAF00953749 /* ADViewController.h */,
+				7B29313F1DBEFEAF00953749 /* ADViewController.m */,
+				7B2931401DBEFEAF00953749 /* CUSCollectionViewCell.h */,
+				7B2931411DBEFEAF00953749 /* CUSCollectionViewCell.m */,
+				7B2931421DBEFEAF00953749 /* LeftMenuViewController.h */,
+				7B2931431DBEFEAF00953749 /* LeftMenuViewController.m */,
+				7B2931441DBEFEAF00953749 /* MainTabCell.h */,
+				7B2931451DBEFEAF00953749 /* MainTabCell.m */,
+				7B2931461DBEFEAF00953749 /* MainViewController.h */,
+				7B2931471DBEFEAF00953749 /* MainViewController.m */,
+				7B2931481DBEFEAF00953749 /* ProduceInfoViewController.h */,
+				7B2931491DBEFEAF00953749 /* ProduceInfoViewController.m */,
+				7B29314A1DBEFEAF00953749 /* RightMenuViewController.h */,
+				7B29314B1DBEFEAF00953749 /* RightMenuViewController.m */,
+				7B29314C1DBEFEAF00953749 /* ShopViewController.h */,
+				7B29314D1DBEFEAF00953749 /* ShopViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -3156,6 +3279,7 @@
 		7B5B962D1C101919006F8359 /* Tadpole */ = {
 			isa = PBXGroup;
 			children = (
+				7B29312D1DBEFEAF00953749 /* Libs */,
 				7B2931241DBEFC2B00953749 /* Address */,
 				7B2930FA1DBEF85200953749 /* Home */,
 				7B292BFB1DBEF14500953749 /* Kinds */,
@@ -4511,9 +4635,11 @@
 				7B5B96331C101919006F8359 /* AppDelegate.m in Sources */,
 				7B2930E51DBEF14700953749 /* TomBaseViewController.m in Sources */,
 				7B5363431DBA048E005C0F48 /* SVProgressHUD.m in Sources */,
+				7B2931681DBEFEAF00953749 /* MJNIndexView.m in Sources */,
 				7B2931211DBEF85200953749 /* HomekindCell.m in Sources */,
 				7B29312A1DBEFC2B00953749 /* AddressViewController.m in Sources */,
 				7B2930F41DBEF14700953749 /* MovieRMTPCreator.m in Sources */,
+				7B29315D1DBEFEAF00953749 /* UITextField+ExtentRange.m in Sources */,
 				7B2930EA1DBEF14700953749 /* LLYMapViewController.m in Sources */,
 				7BCF6FB31C53672800F30E31 /* TrackRoundView.m in Sources */,
 				7B0ADD7D1C3E5E5800D893C5 /* LoginViewController.m in Sources */,
@@ -4522,13 +4648,19 @@
 				7BAED4E51C44E8BC006723FB /* MusicTableViewCell.m in Sources */,
 				7BAED5351C45E5C4006723FB /* UIButton+WebCache.m in Sources */,
 				7BAED5321C45E5C4006723FB /* SDWebImageDownloaderOperation.m in Sources */,
+				7B2931661DBEFEAF00953749 /* ShopViewController.m in Sources */,
 				7B4F2B841DAF812E00581CE4 /* MJRefreshBackFooter.m in Sources */,
+				7B2931601DBEFEAF00953749 /* CUSCollectionViewCell.m in Sources */,
 				7B7D97CE1C23B18500363D92 /* SlotViewController.m in Sources */,
+				7B29316A1DBEFEAF00953749 /* SharpLabel.m in Sources */,
 				7B2930E91DBEF14700953749 /* KCCalloutAnnotationView.m in Sources */,
+				7B29315E1DBEFEAF00953749 /* UIView+Frame.m in Sources */,
 				7B2930F71DBEF14700953749 /* TableViewDataSource.m in Sources */,
 				7BCF6FD81C53855A00F30E31 /* HttpDataSource.m in Sources */,
+				7B29315C1DBEFEAF00953749 /* UIButton+Set.m in Sources */,
 				7BCF6FD91C53855A00F30E31 /* LocalFileDataSource.m in Sources */,
 				7B5363401DBA048E005C0F48 /* SVIndefiniteAnimatedView.m in Sources */,
+				7B2931651DBEFEAF00953749 /* RightMenuViewController.m in Sources */,
 				7B2930F81DBEF14700953749 /* TableViewDelegate.m in Sources */,
 				7B29311B1DBEF85200953749 /* ProduceInfoViewController.m in Sources */,
 				7B29311F1DBEF85200953749 /* CountDownView.m in Sources */,
@@ -4538,12 +4670,14 @@
 				7B5363541DBA0635005C0F48 /* AFNetworkReachabilityManager.m in Sources */,
 				7B2930E61DBEF14700953749 /* TomMainVC.mm in Sources */,
 				7B7F940B1C195F0100A56F4F /* CUSSenderFallLayer.m in Sources */,
+				7B2931581DBEFEAF00953749 /* AYCheckManager.m in Sources */,
 				7B562A0C1C338CE500410C96 /* MYPictureView.m in Sources */,
 				7BAED5371C45E5C4006723FB /* UIImage+MultiFormat.m in Sources */,
 				7B4F2B8D1DAF812E00581CE4 /* MJRefreshBackStateFooter.m in Sources */,
 				7B7D97D21C23B50B00363D92 /* MineViewController.m in Sources */,
 				7B701B6A1C2156CB00263B30 /* TTSConfigViewController.m in Sources */,
 				7B4F2B8B1DAF812E00581CE4 /* MJRefreshBackGifFooter.m in Sources */,
+				7B29315F1DBEFEAF00953749 /* ADViewController.m in Sources */,
 				7B4F2BA71DAF81CC00581CE4 /* MJDIYBackFooter.m in Sources */,
 				7B29311A1DBEF85200953749 /* HomeModel.m in Sources */,
 				7B4F2B8E1DAF812E00581CE4 /* MJRefreshGifHeader.m in Sources */,
@@ -4555,6 +4689,7 @@
 				7B4F2B931DAF812E00581CE4 /* UIScrollView+MJExtension.m in Sources */,
 				7BAED53B1C45E5C4006723FB /* UIView+WebCacheOperation.m in Sources */,
 				7B7BCCC01C48DE77008DC956 /* MJIvar.m in Sources */,
+				7B2931691DBEFEAF00953749 /* MyTextField.m in Sources */,
 				7B4F2B851DAF812E00581CE4 /* MJRefreshComponent.m in Sources */,
 				7B91FE291C1A936100B34D17 /* MicroViewController.m in Sources */,
 				7B2930E71DBEF14700953749 /* KCAnnotation.m in Sources */,
@@ -4572,11 +4707,13 @@
 				7BCF6FD41C53855A00F30E31 /* AutoRecoveringHttpDataSource.m in Sources */,
 				7B29311E1DBEF85200953749 /* CollectionViewCell.m in Sources */,
 				7B2930F51DBEF14700953749 /* MovieRMTPLives.m in Sources */,
+				7B2931621DBEFEAF00953749 /* MainTabCell.m in Sources */,
 				7BAED52D1C45E5C4006723FB /* NSData+ImageContentType.m in Sources */,
 				7B29312B1DBEFC2B00953749 /* CityTableViewCell.m in Sources */,
 				7B2930ED1DBEF14700953749 /* RLBaseDateModel.m in Sources */,
 				7B2931171DBEF85200953749 /* ADViewController.m in Sources */,
 				7BAED53A1C45E5C4006723FB /* UIImageView+WebCache.m in Sources */,
+				7B2931641DBEFEAF00953749 /* ProduceInfoViewController.m in Sources */,
 				7BCF6FD71C53855A00F30E31 /* DataSourceWrapper.m in Sources */,
 				7BAED52C1C45E5C4006723FB /* MKAnnotationView+WebCache.m in Sources */,
 				7B4F2B831DAF812E00581CE4 /* MJRefreshAutoFooter.m in Sources */,
@@ -4599,6 +4736,7 @@
 				7BB135341C44C82F007892ED /* MusicViewController.m in Sources */,
 				7BF188E61C22B9BF00E8C758 /* CUShowView.m in Sources */,
 				7B2930F01DBEF14700953749 /* SignView.m in Sources */,
+				7B2931631DBEFEAF00953749 /* MainViewController.m in Sources */,
 				7BAED5361C45E5C4006723FB /* UIImage+GIF.m in Sources */,
 				7B5363571DBA0635005C0F48 /* AFURLResponseSerialization.m in Sources */,
 				7B2931221DBEF85200953749 /* HomeTopScrCell.m in Sources */,
@@ -4609,6 +4747,7 @@
 				7BDAD19F1C473C9C0060854A /* MIHeaderTableViewCell.m in Sources */,
 				7B2930F11DBEF14700953749 /* Configure.m in Sources */,
 				7BAED52F1C45E5C4006723FB /* SDWebImageCompat.m in Sources */,
+				7B2931671DBEFEAF00953749 /* LoadingView.m in Sources */,
 				7B5D5DE01C157967008C20A5 /* SpeechTomViewController.m in Sources */,
 				7B4F2B8F1DAF812E00581CE4 /* MJRefreshNormalHeader.m in Sources */,
 				7BC573CF1C1679590006E540 /* LotteryViewController.m in Sources */,
@@ -4621,7 +4760,9 @@
 				7B81129D1C2677830083C849 /* main.m in Sources */,
 				7B7BCCC21C48DE77008DC956 /* MJMethod.m in Sources */,
 				7BC136561C2FB5F7008969D2 /* LLYPhotoCaptionView.m in Sources */,
+				7B29315A1DBEFEAF00953749 /* NSTimer+Addition.m in Sources */,
 				7B4F2B8C1DAF812E00581CE4 /* MJRefreshBackNormalFooter.m in Sources */,
+				7B2931611DBEFEAF00953749 /* LeftMenuViewController.m in Sources */,
 				7B4F2B901DAF812E00581CE4 /* MJRefreshStateHeader.m in Sources */,
 				7B7B72801C228E98002D2BBB /* IATConfig.m in Sources */,
 				7B5363441DBA048E005C0F48 /* SVRadialGradientLayer.m in Sources */,
@@ -4643,8 +4784,11 @@
 				7B2930C71DBEF14700953749 /* SCListener.m in Sources */,
 				7B4F2B921DAF812E00581CE4 /* MJRefreshConst.m in Sources */,
 				7BAED4EA1C44F1C1006723FB /* MyAFNetWork.m in Sources */,
+				7B29316B1DBEFEAF00953749 /* UIViewController+progrssHud.m in Sources */,
+				7B2931591DBEFEAF00953749 /* NSDate+RLBaseCalendar.m in Sources */,
 				7BCF6FD51C53855A00F30E31 /* CoreFoundationDataSource.m in Sources */,
 				7BB9F6681C4C8D7A00297D52 /* FSPlayIistItem.m in Sources */,
+				7B29315B1DBEFEAF00953749 /* SharpLabel.m in Sources */,
 				7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */,
 				7B7BCCC51C48DE77008DC956 /* NSObject+MJCoding.m in Sources */,
 				7BD9BE431C4899E4008F69F1 /* FMTracksModel.m in Sources */,
