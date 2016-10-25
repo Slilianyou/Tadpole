@@ -635,6 +635,19 @@
 		7B2930F71DBEF14700953749 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B292E8E1DBEF14600953749 /* TableViewDataSource.m */; };
 		7B2930F81DBEF14700953749 /* TableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B292E901DBEF14600953749 /* TableViewDelegate.m */; };
 		7B2930F91DBEF14700953749 /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B292E931DBEF14600953749 /* DataTableViewCell.m */; };
+		7B2931171DBEF85200953749 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2930FC1DBEF85200953749 /* ADViewController.m */; };
+		7B2931181DBEF85200953749 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2930FE1DBEF85200953749 /* LeftMenuViewController.m */; };
+		7B2931191DBEF85200953749 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931001DBEF85200953749 /* MainViewController.m */; };
+		7B29311A1DBEF85200953749 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931031DBEF85200953749 /* HomeModel.m */; };
+		7B29311B1DBEF85200953749 /* ProduceInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931051DBEF85200953749 /* ProduceInfoViewController.m */; };
+		7B29311C1DBEF85200953749 /* ProduceSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931071DBEF85200953749 /* ProduceSearchVC.m */; };
+		7B29311D1DBEF85200953749 /* ShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931091DBEF85200953749 /* ShopViewController.m */; };
+		7B29311E1DBEF85200953749 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29310C1DBEF85200953749 /* CollectionViewCell.m */; };
+		7B29311F1DBEF85200953749 /* CountDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29310E1DBEF85200953749 /* CountDownView.m */; };
+		7B2931201DBEF85200953749 /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931101DBEF85200953749 /* HistoryTableViewCell.m */; };
+		7B2931211DBEF85200953749 /* HomekindCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931121DBEF85200953749 /* HomekindCell.m */; };
+		7B2931221DBEF85200953749 /* HomeTopScrCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931141DBEF85200953749 /* HomeTopScrCell.m */; };
+		7B2931231DBEF85200953749 /* RushBuyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931161DBEF85200953749 /* RushBuyCell.m */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B4F2B831DAF812E00581CE4 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F2B591DAF812E00581CE4 /* MJRefreshAutoFooter.m */; };
@@ -1510,6 +1523,32 @@
 		7B292E901DBEF14600953749 /* TableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDelegate.m; sourceTree = "<group>"; };
 		7B292E921DBEF14600953749 /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
 		7B292E931DBEF14600953749 /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		7B2930FB1DBEF85200953749 /* ADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		7B2930FC1DBEF85200953749 /* ADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		7B2930FD1DBEF85200953749 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		7B2930FE1DBEF85200953749 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		7B2930FF1DBEF85200953749 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7B2931001DBEF85200953749 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7B2931021DBEF85200953749 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		7B2931031DBEF85200953749 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		7B2931041DBEF85200953749 /* ProduceInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProduceInfoViewController.h; sourceTree = "<group>"; };
+		7B2931051DBEF85200953749 /* ProduceInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProduceInfoViewController.m; sourceTree = "<group>"; };
+		7B2931061DBEF85200953749 /* ProduceSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProduceSearchVC.h; sourceTree = "<group>"; };
+		7B2931071DBEF85200953749 /* ProduceSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProduceSearchVC.m; sourceTree = "<group>"; };
+		7B2931081DBEF85200953749 /* ShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopViewController.h; sourceTree = "<group>"; };
+		7B2931091DBEF85200953749 /* ShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopViewController.m; sourceTree = "<group>"; };
+		7B29310B1DBEF85200953749 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		7B29310C1DBEF85200953749 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		7B29310D1DBEF85200953749 /* CountDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownView.h; sourceTree = "<group>"; };
+		7B29310E1DBEF85200953749 /* CountDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountDownView.m; sourceTree = "<group>"; };
+		7B29310F1DBEF85200953749 /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		7B2931101DBEF85200953749 /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		7B2931111DBEF85200953749 /* HomekindCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomekindCell.h; sourceTree = "<group>"; };
+		7B2931121DBEF85200953749 /* HomekindCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomekindCell.m; sourceTree = "<group>"; };
+		7B2931131DBEF85200953749 /* HomeTopScrCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTopScrCell.h; sourceTree = "<group>"; };
+		7B2931141DBEF85200953749 /* HomeTopScrCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTopScrCell.m; sourceTree = "<group>"; };
+		7B2931151DBEF85200953749 /* RushBuyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RushBuyCell.h; sourceTree = "<group>"; };
+		7B2931161DBEF85200953749 /* RushBuyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RushBuyCell.m; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -2783,6 +2822,55 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		7B2930FA1DBEF85200953749 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7B2930FB1DBEF85200953749 /* ADViewController.h */,
+				7B2930FC1DBEF85200953749 /* ADViewController.m */,
+				7B2930FD1DBEF85200953749 /* LeftMenuViewController.h */,
+				7B2930FE1DBEF85200953749 /* LeftMenuViewController.m */,
+				7B2930FF1DBEF85200953749 /* MainViewController.h */,
+				7B2931001DBEF85200953749 /* MainViewController.m */,
+				7B2931011DBEF85200953749 /* Model */,
+				7B2931041DBEF85200953749 /* ProduceInfoViewController.h */,
+				7B2931051DBEF85200953749 /* ProduceInfoViewController.m */,
+				7B2931061DBEF85200953749 /* ProduceSearchVC.h */,
+				7B2931071DBEF85200953749 /* ProduceSearchVC.m */,
+				7B2931081DBEF85200953749 /* ShopViewController.h */,
+				7B2931091DBEF85200953749 /* ShopViewController.m */,
+				7B29310A1DBEF85200953749 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7B2931011DBEF85200953749 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7B2931021DBEF85200953749 /* HomeModel.h */,
+				7B2931031DBEF85200953749 /* HomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7B29310A1DBEF85200953749 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7B29310B1DBEF85200953749 /* CollectionViewCell.h */,
+				7B29310C1DBEF85200953749 /* CollectionViewCell.m */,
+				7B29310D1DBEF85200953749 /* CountDownView.h */,
+				7B29310E1DBEF85200953749 /* CountDownView.m */,
+				7B29310F1DBEF85200953749 /* HistoryTableViewCell.h */,
+				7B2931101DBEF85200953749 /* HistoryTableViewCell.m */,
+				7B2931111DBEF85200953749 /* HomekindCell.h */,
+				7B2931121DBEF85200953749 /* HomekindCell.m */,
+				7B2931131DBEF85200953749 /* HomeTopScrCell.h */,
+				7B2931141DBEF85200953749 /* HomeTopScrCell.m */,
+				7B2931151DBEF85200953749 /* RushBuyCell.h */,
+				7B2931161DBEF85200953749 /* RushBuyCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -3048,6 +3136,7 @@
 		7B5B962D1C101919006F8359 /* Tadpole */ = {
 			isa = PBXGroup;
 			children = (
+				7B2930FA1DBEF85200953749 /* Home */,
 				7B292BFB1DBEF14500953749 /* Kinds */,
 				7B0282181DB7445C0007E704 /* VoiceVC */,
 				7B4F2B511DAF7BB300581CE4 /* Res */,
@@ -4400,6 +4489,7 @@
 				7B5B96331C101919006F8359 /* AppDelegate.m in Sources */,
 				7B2930E51DBEF14700953749 /* TomBaseViewController.m in Sources */,
 				7B5363431DBA048E005C0F48 /* SVProgressHUD.m in Sources */,
+				7B2931211DBEF85200953749 /* HomekindCell.m in Sources */,
 				7B2930F41DBEF14700953749 /* MovieRMTPCreator.m in Sources */,
 				7B2930EA1DBEF14700953749 /* LLYMapViewController.m in Sources */,
 				7BCF6FB31C53672800F30E31 /* TrackRoundView.m in Sources */,
@@ -4417,7 +4507,10 @@
 				7BCF6FD91C53855A00F30E31 /* LocalFileDataSource.m in Sources */,
 				7B5363401DBA048E005C0F48 /* SVIndefiniteAnimatedView.m in Sources */,
 				7B2930F81DBEF14700953749 /* TableViewDelegate.m in Sources */,
+				7B29311B1DBEF85200953749 /* ProduceInfoViewController.m in Sources */,
+				7B29311F1DBEF85200953749 /* CountDownView.m in Sources */,
 				7BAA7FD91C4344E200299D32 /* MyInfoViewController.m in Sources */,
+				7B2931201DBEF85200953749 /* HistoryTableViewCell.m in Sources */,
 				7B9CF9BC1C44A917000BF93D /* SettingViewController.m in Sources */,
 				7B5363541DBA0635005C0F48 /* AFNetworkReachabilityManager.m in Sources */,
 				7B2930E61DBEF14700953749 /* TomMainVC.mm in Sources */,
@@ -4429,10 +4522,12 @@
 				7B701B6A1C2156CB00263B30 /* TTSConfigViewController.m in Sources */,
 				7B4F2B8B1DAF812E00581CE4 /* MJRefreshBackGifFooter.m in Sources */,
 				7B4F2BA71DAF81CC00581CE4 /* MJDIYBackFooter.m in Sources */,
+				7B29311A1DBEF85200953749 /* HomeModel.m in Sources */,
 				7B4F2B8E1DAF812E00581CE4 /* MJRefreshGifHeader.m in Sources */,
 				7B4F2B951DAF812E00581CE4 /* UIView+MJExtension.m in Sources */,
 				7B701B571C21523300263B30 /* PopupView.m in Sources */,
 				7B4F2BA41DAF81CC00581CE4 /* MJChiBaoZiFooter2.m in Sources */,
+				7B2931231DBEF85200953749 /* RushBuyCell.m in Sources */,
 				7B7F94081C195E8900A56F4F /* CUSSenderLayer.m in Sources */,
 				7B4F2B931DAF812E00581CE4 /* UIScrollView+MJExtension.m in Sources */,
 				7BAED53B1C45E5C4006723FB /* UIView+WebCacheOperation.m in Sources */,
@@ -4452,9 +4547,11 @@
 				7B5363061DB9EEFE005C0F48 /* EAFWrite.mm in Sources */,
 				7BC1364A1C2F8F75008969D2 /* LLYPhotoScrollView.m in Sources */,
 				7BCF6FD41C53855A00F30E31 /* AutoRecoveringHttpDataSource.m in Sources */,
+				7B29311E1DBEF85200953749 /* CollectionViewCell.m in Sources */,
 				7B2930F51DBEF14700953749 /* MovieRMTPLives.m in Sources */,
 				7BAED52D1C45E5C4006723FB /* NSData+ImageContentType.m in Sources */,
 				7B2930ED1DBEF14700953749 /* RLBaseDateModel.m in Sources */,
+				7B2931171DBEF85200953749 /* ADViewController.m in Sources */,
 				7BAED53A1C45E5C4006723FB /* UIImageView+WebCache.m in Sources */,
 				7BCF6FD71C53855A00F30E31 /* DataSourceWrapper.m in Sources */,
 				7BAED52C1C45E5C4006723FB /* MKAnnotationView+WebCache.m in Sources */,
@@ -4467,17 +4564,20 @@
 				7B7BCCC31C48DE77008DC956 /* MJType.m in Sources */,
 				7BCF6FAB1C53652F00F30E31 /* TrackRoundVC.m in Sources */,
 				7B2930EF1DBEF14700953749 /* SignVC.m in Sources */,
+				7B29311C1DBEF85200953749 /* ProduceSearchVC.m in Sources */,
 				7B701B6B1C2156CB00263B30 /* TTSUIController.m in Sources */,
 				7BDAD19C1C4736440060854A /* MusicInfoViewController.m in Sources */,
 				7B2930F61DBEF14700953749 /* MovieRMTPMovieRMTP.m in Sources */,
 				7B4F2B8A1DAF812E00581CE4 /* MJRefreshAutoStateFooter.m in Sources */,
 				7B5363051DB9EEFE005C0F48 /* EAFRead.mm in Sources */,
+				7B29311D1DBEF85200953749 /* ShopViewController.m in Sources */,
 				7B2930E81DBEF14700953749 /* KCCalloutAnnotation.m in Sources */,
 				7BB135341C44C82F007892ED /* MusicViewController.m in Sources */,
 				7BF188E61C22B9BF00E8C758 /* CUShowView.m in Sources */,
 				7B2930F01DBEF14700953749 /* SignView.m in Sources */,
 				7BAED5361C45E5C4006723FB /* UIImage+GIF.m in Sources */,
 				7B5363571DBA0635005C0F48 /* AFURLResponseSerialization.m in Sources */,
+				7B2931221DBEF85200953749 /* HomeTopScrCell.m in Sources */,
 				7B701B541C2151F100263B30 /* PcmPlayer.m in Sources */,
 				7B5363551DBA0635005C0F48 /* AFSecurityPolicy.m in Sources */,
 				7B4F2B861DAF812E00581CE4 /* MJRefreshFooter.m in Sources */,
@@ -4508,7 +4608,9 @@
 				7BC1365F1C3136A8008969D2 /* RESideMenu.m in Sources */,
 				7B7B72811C228E98002D2BBB /* IATConfigViewController.m in Sources */,
 				7BAED52E1C45E5C4006723FB /* SDImageCache.m in Sources */,
+				7B2931181DBEF85200953749 /* LeftMenuViewController.m in Sources */,
 				7BAED5341C45E5C4006723FB /* SDWebImagePrefetcher.m in Sources */,
+				7B2931191DBEF85200953749 /* MainViewController.m in Sources */,
 				7BCF6FD31C53855A00F30E31 /* AudioPlayer.m in Sources */,
 				7BAED5311C45E5C4006723FB /* SDWebImageDownloader.m in Sources */,
 				7B4F2BA51DAF81CC00581CE4 /* MJChiBaoZiHeader.m in Sources */,
