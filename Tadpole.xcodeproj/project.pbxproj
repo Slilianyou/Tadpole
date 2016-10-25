@@ -671,6 +671,11 @@
 		7B2931691DBEFEAF00953749 /* MyTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931531DBEFEAF00953749 /* MyTextField.m */; };
 		7B29316A1DBEFEAF00953749 /* SharpLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931551DBEFEAF00953749 /* SharpLabel.m */; };
 		7B29316B1DBEFEAF00953749 /* UIViewController+progrssHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931571DBEFEAF00953749 /* UIViewController+progrssHud.m */; };
+		7B2931781DBEFF4B00953749 /* libGM_Decoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B29316F1DBEFF4B00953749 /* libGM_Decoder.a */; };
+		7B2931791DBEFF4B00953749 /* syscan_bmp_read_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931701DBEFF4B00953749 /* syscan_bmp_read_write.c */; };
+		7B29317A1DBEFF4B00953749 /* ScanResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931731DBEFF4B00953749 /* ScanResultViewController.m */; };
+		7B29317B1DBEFF4B00953749 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931751DBEFF4B00953749 /* ScanViewController.m */; };
+		7B29317C1DBEFF4B00953749 /* StarRatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2931771DBEFF4B00953749 /* StarRatingView.m */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B4F2B831DAF812E00581CE4 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B4F2B591DAF812E00581CE4 /* MJRefreshAutoFooter.m */; };
@@ -1617,6 +1622,16 @@
 		7B2931551DBEFEAF00953749 /* SharpLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharpLabel.m; sourceTree = "<group>"; };
 		7B2931561DBEFEAF00953749 /* UIViewController+progrssHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+progrssHud.h"; sourceTree = "<group>"; };
 		7B2931571DBEFEAF00953749 /* UIViewController+progrssHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+progrssHud.m"; sourceTree = "<group>"; };
+		7B29316E1DBEFF4B00953749 /* gm_decoder_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gm_decoder_iphone.h; sourceTree = "<group>"; };
+		7B29316F1DBEFF4B00953749 /* libGM_Decoder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGM_Decoder.a; sourceTree = "<group>"; };
+		7B2931701DBEFF4B00953749 /* syscan_bmp_read_write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = syscan_bmp_read_write.c; sourceTree = "<group>"; };
+		7B2931711DBEFF4B00953749 /* syscan_bmp_read_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = syscan_bmp_read_write.h; sourceTree = "<group>"; };
+		7B2931721DBEFF4B00953749 /* ScanResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanResultViewController.h; sourceTree = "<group>"; };
+		7B2931731DBEFF4B00953749 /* ScanResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanResultViewController.m; sourceTree = "<group>"; };
+		7B2931741DBEFF4B00953749 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		7B2931751DBEFF4B00953749 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		7B2931761DBEFF4B00953749 /* StarRatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingView.h; sourceTree = "<group>"; };
+		7B2931771DBEFF4B00953749 /* StarRatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRatingView.m; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -1967,6 +1982,7 @@
 				7B701B4D1C2147C000263B30 /* CoreTelephony.framework in Frameworks */,
 				7B701B4B1C2147AD00263B30 /* CoreLocation.framework in Frameworks */,
 				7B701B461C2142FA00263B30 /* libz.tbd in Frameworks */,
+				7B2931781DBEFF4B00953749 /* libGM_Decoder.a in Frameworks */,
 				7B91FF001C1AC69500B34D17 /* AudioToolbox.framework in Frameworks */,
 				7B91FEFE1C1AC68500B34D17 /* SystemConfiguration.framework in Frameworks */,
 				7B91FEFC1C1AC67700B34D17 /* MobileCoreServices.framework in Frameworks */,
@@ -3014,6 +3030,31 @@
 			path = Home;
 			sourceTree = "<group>";
 		};
+		7B29316C1DBEFF4B00953749 /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				7B29316D1DBEFF4B00953749 /* GM */,
+				7B2931721DBEFF4B00953749 /* ScanResultViewController.h */,
+				7B2931731DBEFF4B00953749 /* ScanResultViewController.m */,
+				7B2931741DBEFF4B00953749 /* ScanViewController.h */,
+				7B2931751DBEFF4B00953749 /* ScanViewController.m */,
+				7B2931761DBEFF4B00953749 /* StarRatingView.h */,
+				7B2931771DBEFF4B00953749 /* StarRatingView.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		7B29316D1DBEFF4B00953749 /* GM */ = {
+			isa = PBXGroup;
+			children = (
+				7B29316E1DBEFF4B00953749 /* gm_decoder_iphone.h */,
+				7B29316F1DBEFF4B00953749 /* libGM_Decoder.a */,
+				7B2931701DBEFF4B00953749 /* syscan_bmp_read_write.c */,
+				7B2931711DBEFF4B00953749 /* syscan_bmp_read_write.h */,
+			);
+			path = GM;
+			sourceTree = "<group>";
+		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -3279,6 +3320,7 @@
 		7B5B962D1C101919006F8359 /* Tadpole */ = {
 			isa = PBXGroup;
 			children = (
+				7B29316C1DBEFF4B00953749 /* Scan */,
 				7B29312D1DBEFEAF00953749 /* Libs */,
 				7B2931241DBEFC2B00953749 /* Address */,
 				7B2930FA1DBEF85200953749 /* Home */,
@@ -4693,6 +4735,7 @@
 				7B4F2B851DAF812E00581CE4 /* MJRefreshComponent.m in Sources */,
 				7B91FE291C1A936100B34D17 /* MicroViewController.m in Sources */,
 				7B2930E71DBEF14700953749 /* KCAnnotation.m in Sources */,
+				7B2931791DBEFF4B00953749 /* syscan_bmp_read_write.c in Sources */,
 				7BC1365E1C3136A8008969D2 /* RECommonFunctions.m in Sources */,
 				7B4F2BA81DAF81CC00581CE4 /* MJDIYHeader.m in Sources */,
 				7B5363561DBA0635005C0F48 /* AFURLRequestSerialization.m in Sources */,
@@ -4707,6 +4750,7 @@
 				7BCF6FD41C53855A00F30E31 /* AutoRecoveringHttpDataSource.m in Sources */,
 				7B29311E1DBEF85200953749 /* CollectionViewCell.m in Sources */,
 				7B2930F51DBEF14700953749 /* MovieRMTPLives.m in Sources */,
+				7B29317C1DBEFF4B00953749 /* StarRatingView.m in Sources */,
 				7B2931621DBEFEAF00953749 /* MainTabCell.m in Sources */,
 				7BAED52D1C45E5C4006723FB /* NSData+ImageContentType.m in Sources */,
 				7B29312B1DBEFC2B00953749 /* CityTableViewCell.m in Sources */,
@@ -4773,6 +4817,7 @@
 				7BC1365F1C3136A8008969D2 /* RESideMenu.m in Sources */,
 				7B7B72811C228E98002D2BBB /* IATConfigViewController.m in Sources */,
 				7BAED52E1C45E5C4006723FB /* SDImageCache.m in Sources */,
+				7B29317B1DBEFF4B00953749 /* ScanViewController.m in Sources */,
 				7B2931181DBEF85200953749 /* LeftMenuViewController.m in Sources */,
 				7BAED5341C45E5C4006723FB /* SDWebImagePrefetcher.m in Sources */,
 				7B2931191DBEF85200953749 /* MainViewController.m in Sources */,
@@ -4788,6 +4833,7 @@
 				7B2931591DBEFEAF00953749 /* NSDate+RLBaseCalendar.m in Sources */,
 				7BCF6FD51C53855A00F30E31 /* CoreFoundationDataSource.m in Sources */,
 				7BB9F6681C4C8D7A00297D52 /* FSPlayIistItem.m in Sources */,
+				7B29317A1DBEFF4B00953749 /* ScanResultViewController.m in Sources */,
 				7B29315B1DBEFEAF00953749 /* SharpLabel.m in Sources */,
 				7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */,
 				7B7BCCC51C48DE77008DC956 /* NSObject+MJCoding.m in Sources */,
