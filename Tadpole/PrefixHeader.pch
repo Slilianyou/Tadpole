@@ -24,7 +24,7 @@
 #import "MyAFNetWork.h"
 #import "UIImageView+WebCache.h"
 
-#import "MJExtension.h"
+//#import "MJExtension.h"
 
 
 // CateGory

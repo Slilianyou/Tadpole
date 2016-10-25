@@ -786,6 +786,9 @@
 		7B2933631DBF0BFB00953749 /* SBJson4StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B29330E1DBF0BFA00953749 /* SBJson4StreamWriter.m */; };
 		7B2933641DBF0BFB00953749 /* SBJson4StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933101DBF0BFA00953749 /* SBJson4StreamWriterState.m */; };
 		7B2933651DBF0BFB00953749 /* SBJson4Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933121DBF0BFA00953749 /* SBJson4Writer.m */; };
+		7B2933771DBF0D2E00953749 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933721DBF0D2E00953749 /* RECommonFunctions.m */; };
+		7B2933781DBF0D2E00953749 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933741DBF0D2E00953749 /* RESideMenu.m */; };
+		7B2933791DBF0D2E00953749 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2933761DBF0D2E00953749 /* UIViewController+RESideMenu.m */; };
 		7B458FA11C43581000A07C91 /* MyInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */; };
 		7B4F2B551DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */; };
 		7B53630D1DB9FDE4005C0F48 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53630C1DB9FDE4005C0F48 /* CoreAudio.framework */; };
@@ -1884,6 +1887,12 @@
 		7B2933101DBF0BFA00953749 /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriterState.m; sourceTree = "<group>"; };
 		7B2933111DBF0BFA00953749 /* SBJson4Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Writer.h; sourceTree = "<group>"; };
 		7B2933121DBF0BFA00953749 /* SBJson4Writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Writer.m; sourceTree = "<group>"; };
+		7B2933711DBF0D2E00953749 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		7B2933721DBF0D2E00953749 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		7B2933731DBF0D2E00953749 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		7B2933741DBF0D2E00953749 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		7B2933751DBF0D2E00953749 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		7B2933761DBF0D2E00953749 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
 		7B458F9F1C43581000A07C91 /* MyInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoTableViewCell.h; sourceTree = "<group>"; };
 		7B458FA01C43581000A07C91 /* MyInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoTableViewCell.m; sourceTree = "<group>"; };
 		7B4F2B541DAF7F1700581CE4 /* Main_TitleView_Tadpole@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Main_TitleView_Tadpole@2x.png"; sourceTree = "<group>"; };
@@ -3235,6 +3244,7 @@
 		7B2932501DBF0BFA00953749 /* ThirdMethod */ = {
 			isa = PBXGroup;
 			children = (
+				7B2933701DBF0D2E00953749 /* RESideMenu */,
 				7B2932511DBF0BFA00953749 /* AFNetworking3.0 */,
 				7B29325F1DBF0BFA00953749 /* business */,
 				7B29326C1DBF0BFA00953749 /* Dirac.h */,
@@ -3585,6 +3595,19 @@
 				7B2933121DBF0BFA00953749 /* SBJson4Writer.m */,
 			);
 			path = SBJson;
+			sourceTree = "<group>";
+		};
+		7B2933701DBF0D2E00953749 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				7B2933711DBF0D2E00953749 /* RECommonFunctions.h */,
+				7B2933721DBF0D2E00953749 /* RECommonFunctions.m */,
+				7B2933731DBF0D2E00953749 /* RESideMenu.h */,
+				7B2933741DBF0D2E00953749 /* RESideMenu.m */,
+				7B2933751DBF0D2E00953749 /* UIViewController+RESideMenu.h */,
+				7B2933761DBF0D2E00953749 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
 			sourceTree = "<group>";
 		};
 		7B458F9C1C4357A400A07C91 /* VIewController */ = {
@@ -5003,6 +5026,7 @@
 				7B2930EE1DBEF14700953749 /* RLBaseDateTools.m in Sources */,
 				7BC1364A1C2F8F75008969D2 /* LLYPhotoScrollView.m in Sources */,
 				7B29333B1DBF0BFA00953749 /* LocalConnection.m in Sources */,
+				7B2933791DBF0D2E00953749 /* UIViewController+RESideMenu.m in Sources */,
 				7B2933321DBF0BFA00953749 /* MJRefreshBackStateFooter.m in Sources */,
 				7B2933441DBF0BFA00953749 /* PingFoundation.m in Sources */,
 				7B29334A1DBF0BFA00953749 /* SDWebImageCompat.m in Sources */,
@@ -5051,6 +5075,7 @@
 				7B29331A1DBF0BFA00953749 /* IATConfig.m in Sources */,
 				7B29332A1DBF0BFA00953749 /* MJRefreshComponent.m in Sources */,
 				7B2933561DBF0BFB00953749 /* UIView+WebCacheOperation.m in Sources */,
+				7B2933771DBF0D2E00953749 /* RECommonFunctions.m in Sources */,
 				7B5D5DE01C157967008C20A5 /* SpeechTomViewController.m in Sources */,
 				7BC573CF1C1679590006E540 /* LotteryViewController.m in Sources */,
 				7B7F940E1C19714600A56F4F /* CUSSenderGoldLayer.m in Sources */,
@@ -5075,6 +5100,7 @@
 				7B7B72811C228E98002D2BBB /* IATConfigViewController.m in Sources */,
 				7B2932451DBF0AB500953749 /* LLYPhotoImageView.m in Sources */,
 				7B2933471DBF0BFA00953749 /* MKAnnotationView+WebCache.m in Sources */,
+				7B2933781DBF0D2E00953749 /* RESideMenu.m in Sources */,
 				7B29332E1DBF0BFA00953749 /* MJRefreshAutoNormalFooter.m in Sources */,
 				7B29317B1DBEFF4B00953749 /* ScanViewController.m in Sources */,
 				7B2931181DBEF85200953749 /* LeftMenuViewController.m in Sources */,
