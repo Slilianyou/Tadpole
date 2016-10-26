@@ -78,8 +78,6 @@ static NSString *userImageCell =@"UserImageCell";
     if ([cell respondsToSelector:@selector(setLayoutMargins:)]) {
         [cell setLayoutMargins:UIEdgeInsetsZero];
     }
-    
-    
 }
 
 
@@ -88,6 +86,7 @@ static NSString *userImageCell =@"UserImageCell";
 {
     return 4;
 }
+
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
     switch (section) {
@@ -197,7 +196,7 @@ static NSString *userImageCell =@"UserImageCell";
     if (indexPath.section == 0) {
         LoginViewController *loginVc = [[LoginViewController alloc]init];
         UINavigationController *loginNai = [[UINavigationController alloc]initWithRootViewController:loginVc];
-
+        [loginNai setNavigationBarHidden:YES animated:YES];
         [self.navigationController presentViewController:loginNai animated:YES completion:nil];
     }
 //    if (indexPath.section == 1) {

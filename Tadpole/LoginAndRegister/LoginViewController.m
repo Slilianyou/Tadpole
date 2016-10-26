@@ -14,6 +14,10 @@
 #import "MyInfoViewController.h"
 #import "SettingViewController.h"
 
+//
+#import "RegisterViewController.h"
+#import "VerticalBtn.h"
+
 #define userName @"lilianyou"
 
 @interface LoginViewController ()<UIAlertViewDelegate,UITableViewDataSource,UITableViewDelegate>
@@ -101,17 +105,178 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+
+    self.view.layer.contents = (id)[UIImage imageNamed:@"User_default_LoginBack"].CGImage;
     [self addBtnItem];
-    [self addData];
-    [self addLogin];
-   
-   
+    [self setupUI];
+//    [self addData];
+//    [self addLogin];
    
 }
 
+- (void)setupUI
+{
+    CGFloat kMargin = 10;
+    CGFloat w = (kScreenWidth - 2*kMargin*4) / 4.f;
+    //模糊视图
+    UIBlurEffect *blur = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
+    UIVisualEffectView *effectView = [[UIVisualEffectView alloc]initWithEffect:blur];
+    effectView.frame = self.view.bounds;
+    [self.view addSubview:effectView];
+    
+    // 返回
+    UIButton *cancleBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    cancleBtn.tag = 1000;
+    cancleBtn.frame = CGRectMake( 25 , 35, 30,  30);
+    cancleBtn.backgroundColor = [UIColor clearColor];
+    cancleBtn.showsTouchWhenHighlighted = YES;
+    [cancleBtn setImage:[UIImage imageNamed:@"present_back@2x.png"] forState:UIControlStateNormal];
+    cancleBtn.layer.cornerRadius =  CGRectGetWidth(cancleBtn.frame) / 2.0;
+    cancleBtn.layer.masksToBounds = YES;
+    [cancleBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [effectView addSubview:cancleBtn];
+    // 注册
+    UIButton *registerBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [registerBtn setTitle:@"注册" forState:UIControlStateNormal];
+    [registerBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+    registerBtn.tag = 1001;
+    registerBtn.frame = CGRectMake(kScreenWidth - 75 , 35, 50,  30);
+    registerBtn.backgroundColor = [UIColor redColor];
+    registerBtn.showsTouchWhenHighlighted = YES;
+    registerBtn.layer.shadowOpacity = YES;
+    registerBtn.layer.shadowRadius = 4;
+    registerBtn.layer.shadowColor = [UIColor blackColor].CGColor;
+    registerBtn.layer.shadowOffset = CGSizeMake(0, 0);
+    [registerBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [effectView addSubview:registerBtn];
 
+    // 账号
+    _nameField = [[UITextField alloc]init];
+    _nameField.frame = CGRectMake(0, 100, kScreenWidth , 50);
+    _nameField.textAlignment = NSTextAlignmentCenter;
+    _nameField.backgroundColor = [UIColor whiteColor];
+    _nameField.alpha = 0.6;
+    _nameField.placeholder = @"账号/手机号码";
+    _nameField.delegate = self;
+    [effectView addSubview:_nameField];
+    
+    UIView *line = [[UIView alloc]init];
+    line.backgroundColor = [UIColor whiteColor];
+    line.frame = CGRectMake(0, CGRectGetMaxY(_nameField.frame), kScreenWidth , 1);
+    [effectView addSubview:line];
+    
+    // 密码
+    _passwordField = [[UITextField alloc]init];
+    _passwordField.frame = CGRectMake(0, CGRectGetMaxY(line.frame), kScreenWidth , 50);
+    _passwordField.textAlignment = NSTextAlignmentCenter;
+    _passwordField.backgroundColor = [UIColor whiteColor];
+    _passwordField.alpha = 0.6;
+    _passwordField.placeholder = @"密码";
+    _passwordField.secureTextEntry = YES;
+    _passwordField.delegate = self;
+    [effectView addSubview:_passwordField];
+    
+    // 登录按钮
+    self.loginBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [self.loginBtn setTitle:@"密码登陆" forState:UIControlStateNormal];
+    [self.loginBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    self.loginBtn.backgroundColor = [UIColor redColor];
+    self.loginBtn.frame = CGRectMake(0 , 0, 100,  40);
+    self.loginBtn.center = CGPointMake(kScreenWidth / 3.0, CGRectGetMaxY(_passwordField.frame) + 40);
+    [effectView addSubview:self.loginBtn];
+    
+    // 按钮
+    self.touchIdBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    self.touchIdBtn.tag = touchIdBtnTag ;
+    [self.touchIdBtn setTitle:@"指纹登录" forState:UIControlStateNormal];
+    [self.touchIdBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    self.touchIdBtn.backgroundColor = [UIColor redColor];
+    self.touchIdBtn.frame = CGRectMake(0 , 0, 100,  40);
+    self.touchIdBtn.center = CGPointMake(kScreenWidth * 2/ 3.0, CGRectGetMaxY(_passwordField.frame) + 40);
+    [effectView addSubview:self.touchIdBtn];
+    
+    // 忘记密码
+    UIButton *forgetBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+    forgetBtn.tag = forgetBtnTag;
+    [forgetBtn setTitle:@"忘记密码?" forState:UIControlStateNormal];
+    [forgetBtn setTitleFont:[UIFont systemFontOfSize:14.f]];
+    forgetBtn.backgroundColor = [UIColor redColor];
+    
+    [forgetBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    forgetBtn.frame = CGRectMake(kScreenWidth - 120 , CGRectGetMaxY(self.loginBtn.frame) + 10, 100,  30);
+    [effectView addSubview:forgetBtn];
 
+    // 三方登陆
+    UILabel *titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 30)];
+    titleLabel.textAlignment = NSTextAlignmentCenter;
+    titleLabel.center = CGPointMake(kScreenWidth / 2.f, kScreenHeight - 20 - w - 40);
+    titleLabel.backgroundColor = [UIColor clearColor];
+    titleLabel.text = @"第三方登录";
+    [effectView addSubview:titleLabel];
+    
+    // 线
+    CGFloat lineWidth = (kScreenWidth - 10 *2 - 10 *3 - CGRectGetWidth(titleLabel.frame)) / 2.f;
+    UIView *leftThirdline = [[UIView  alloc]initWithFrame:CGRectMake(10, kScreenHeight - 20 - w - 40, lineWidth , 1)];
+      leftThirdline.alpha = 0.6;
+    leftThirdline.backgroundColor = [UIColor whiteColor];
+    [effectView addSubview:leftThirdline];
+
+    UIView *rightThirdline = [[UIView  alloc]initWithFrame:CGRectMake(CGRectGetMaxX(titleLabel.frame) + 15, kScreenHeight - 20 - w - 40, lineWidth , 1)];
+    rightThirdline.alpha = 0.6;
+    rightThirdline.backgroundColor = [UIColor whiteColor];
+    [effectView addSubview:rightThirdline];
+    
+    // QQ,微信，新浪，，腾讯
+    VerticalBtn *wxBtn = [[VerticalBtn alloc]initWithFrame:CGRectMake( kMargin ,kScreenHeight - 20 - w, w,  w)];
+    wxBtn.tag = 1002;
+    wxBtn.backgroundColor = [UIColor clearColor];
+    [wxBtn setTitle:@"微信登录" forState:UIControlStateNormal];
+    [wxBtn setImage:[UIImage imageNamed:@"weixin@2x.png"] forState:UIControlStateNormal];
+    [wxBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [wxBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [effectView addSubview:wxBtn];
+    
+    //QQ
+    VerticalBtn *qqBtn = [[VerticalBtn alloc]initWithFrame:CGRectMake( kMargin * 3 + w ,kScreenHeight - 20 - w, w,  w)];
+    qqBtn.tag = 1003;
+    qqBtn.backgroundColor = [UIColor clearColor];
+    [qqBtn setTitle:@"QQ登录" forState:UIControlStateNormal];
+    [qqBtn setImage:[UIImage imageNamed:@"qq@2x.png"] forState:UIControlStateNormal];
+    [qqBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [qqBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [effectView addSubview:qqBtn];
+    
+    //新浪xinLangWeiBo@2x.png
+    VerticalBtn *xinLangWeiBoBtn = [[VerticalBtn alloc]initWithFrame:CGRectMake( kMargin * 5 + w*2 ,kScreenHeight - 20 - w, w,  w)];
+    xinLangWeiBoBtn.tag = 1004;
+    xinLangWeiBoBtn.backgroundColor = [UIColor clearColor];
+    [xinLangWeiBoBtn setTitle:@"新浪微博" forState:UIControlStateNormal];
+    [xinLangWeiBoBtn setImage:[UIImage imageNamed:@"xinLangWeiBo@2x.png"] forState:UIControlStateNormal];
+    [xinLangWeiBoBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [xinLangWeiBoBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [effectView addSubview:xinLangWeiBoBtn];
+    //新浪xinLangWeiBo@2x.png
+    VerticalBtn *tengXunWeiBoBtn = [[VerticalBtn alloc]initWithFrame:CGRectMake( kMargin * 7 + w *3 ,kScreenHeight - 20 - w, w,  w)];
+    tengXunWeiBoBtn.tag = 1004;
+    tengXunWeiBoBtn.backgroundColor = [UIColor clearColor];
+    [tengXunWeiBoBtn setTitle:@"腾讯微博" forState:UIControlStateNormal];
+    [tengXunWeiBoBtn setImage:[UIImage imageNamed:@"tengXunWeiBo@2x.png"] forState:UIControlStateNormal];
+    [tengXunWeiBoBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [tengXunWeiBoBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [effectView addSubview:tengXunWeiBoBtn];
+}
+
+//- (UIButton *)creatBtnWithFrame:(CGRect)rect withTitle:(NSString *)title withTag:(NSInteger)tag  withImage:(UIImage *)image 
+//{
+//    VerticalBtn *wxBtn = [[VerticalBtn alloc]initWithFrame:CGRectMake( kMargin ,kScreenHeight - 20 - w, w,  w)];
+//    wxBtn.tag = 1002;
+//    wxBtn.backgroundColor = [UIColor clearColor];
+//    [wxBtn setTitle:@"微信登录" forState:UIControlStateNormal];
+//    [wxBtn setImage:[UIImage imageNamed:@"weixin@2x.png"] forState:UIControlStateNormal];
+//    [wxBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    [wxBtn addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
+//    [effectView addSubview:wxBtn];
+//}
 
 #pragma  mark -- Method
 - (void)addData
@@ -301,16 +466,16 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setImage:[UIImage imageNamed:@"back.png"] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(presentLeftMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    btn.frame = CGRectMake(0 , 0,30,  30);
+    btn.frame = CGRectMake(0 , 0, 30, 30);
     self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
     
     //
     UIButton *rightBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [rightBtn setImage:[UIImage imageNamed:@"userconfig.png"] forState:UIControlStateNormal];
     [rightBtn setTitle:@"注册" forState:UIControlStateNormal];
-    [rightBtn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    [rightBtn setTitleFont:[UIFont systemFontOfSize:17.f]];
+    [rightBtn setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
     [rightBtn addTarget:self action:@selector(presentRightMenuViewController:) forControlEvents:UIControlEventTouchUpInside];
-    rightBtn.frame = CGRectMake(0 , 0,30,  30);
+    rightBtn.frame = CGRectMake(0 , 0,50,  30);
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:rightBtn];
     
 }
@@ -340,74 +505,89 @@
 #pragma mark -BtnClick
 - (void)buttonClicked:(UIButton *)sender
 {
-    if (sender == self.loginBtn) {
-        if ([_nameField.text isEqualToString:@""] ||[_passwordField.text isEqualToString:@""]) {
-            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"密码或用户名不能为空" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-            [alert show];
-            return;
+    switch (sender.tag) {
+        case 1000:
+        {
+            [self dismissViewControllerAnimated:YES completion:nil];
         }
-        
-        // 2.
-        [_nameField resignFirstResponder];
-        [_passwordField resignFirstResponder];
-        
-        // 3.
-        if (self.loginBtn.tag == createBtnTag) {
-            NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
-            BOOL hasLoginKey = [def boolForKey:@"hasLoginKey"];
-            
-            // 4
-            if (hasLoginKey  == false) {
-                [def setValue:_nameField.text forKey:@"username"];
-            }
-           
-            // 5
-            [_keychainWrapper setObject:@"Myappstring" forKey: (id)kSecAttrService];
-            [_keychainWrapper setObject:_nameField.text forKey:(id)kSecAttrAccount];
-            [_keychainWrapper setObject:_passwordField.text forKey:(id)kSecValueData];
-            
-            [def setBool:true forKey:@"hasLoginKey"];
-            [def setBool:YES forKey:@"isFinishedLogin"];
-            [def setObject:@"Yes" forKey:@"isLogin"];
-            [def setObject:@"cj" forKey:@"createBtnTag"];
-            [def synchronize];
-            
-            _passwordField.text = nil;
-            self.loginBtn.tag = loginBtnTag;
-            [self presentLeftMenuViewController:nil];
-        } else if (self.loginBtn.tag == loginBtnTag){
-            if ([self checkLogin]) {
-                NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
-                [def setObject:@"Yes" forKey:@"isLogin"];
-                [def synchronize];
-                 _backView.hidden = YES;
-                [self addUserImageView];
-                [self addUserAppInfo];
-                _passwordField.text = nil;
-                [self presentLeftMenuViewController:nil];
-            }else {
-                UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Login Problem" message:@"Wrong username or password" delegate:nil cancelButtonTitle:@"sure" otherButtonTitles:nil, nil];
-                [alertView show];
-            }
-        }
+            break;
+        case 1001:
+        {
 
-    } else if (sender == self.touchIdBtn){
-        [self authenticateUser];
-    } else if (sender.tag == outBtnTag){
-        self.navigationItem.rightBarButtonItem.customView.hidden = YES;
-        _backView.hidden = NO;
-        [self.userImagebackView removeFromSuperview];
-        self.myTableView.delegate = nil;
-        self.myTableView.dataSource = nil;
-        [self.myTableView removeFromSuperview];
-        
-        sender.hidden = YES;
-        NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
-        [def removeObjectForKey:@"isLogin"];
-        [def removeObjectForKey:@"hasLoginKey"];
-        [def synchronize];
-        [self presentLeftMenuViewController:nil];
+            [self.navigationController pushViewController:[[RegisterViewController alloc]init]  animated:YES];
+        }
+            break;
+        default:
+            break;
     }
+//    if (sender == self.loginBtn) {
+//        if ([_nameField.text isEqualToString:@""] ||[_passwordField.text isEqualToString:@""]) {
+//            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"提示" message:@"密码或用户名不能为空" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+//            [alert show];
+//            return;
+//        }
+//        
+//        // 2.
+//        [_nameField resignFirstResponder];
+//        [_passwordField resignFirstResponder];
+//        
+//        // 3.
+//        if (self.loginBtn.tag == createBtnTag) {
+//            NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+//            BOOL hasLoginKey = [def boolForKey:@"hasLoginKey"];
+//            
+//            // 4
+//            if (hasLoginKey  == false) {
+//                [def setValue:_nameField.text forKey:@"username"];
+//            }
+//           
+//            // 5
+//            [_keychainWrapper setObject:@"Myappstring" forKey: (id)kSecAttrService];
+//            [_keychainWrapper setObject:_nameField.text forKey:(id)kSecAttrAccount];
+//            [_keychainWrapper setObject:_passwordField.text forKey:(id)kSecValueData];
+//            
+//            [def setBool:true forKey:@"hasLoginKey"];
+//            [def setBool:YES forKey:@"isFinishedLogin"];
+//            [def setObject:@"Yes" forKey:@"isLogin"];
+//            [def setObject:@"cj" forKey:@"createBtnTag"];
+//            [def synchronize];
+//            
+//            _passwordField.text = nil;
+//            self.loginBtn.tag = loginBtnTag;
+//            [self presentLeftMenuViewController:nil];
+//        } else if (self.loginBtn.tag == loginBtnTag){
+//            if ([self checkLogin]) {
+//                NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+//                [def setObject:@"Yes" forKey:@"isLogin"];
+//                [def synchronize];
+//                 _backView.hidden = YES;
+//                [self addUserImageView];
+//                [self addUserAppInfo];
+//                _passwordField.text = nil;
+//                [self presentLeftMenuViewController:nil];
+//            }else {
+//                UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"Login Problem" message:@"Wrong username or password" delegate:nil cancelButtonTitle:@"sure" otherButtonTitles:nil, nil];
+//                [alertView show];
+//            }
+//        }
+//
+//    } else if (sender == self.touchIdBtn){
+//        [self authenticateUser];
+//    } else if (sender.tag == outBtnTag){
+//        self.navigationItem.rightBarButtonItem.customView.hidden = YES;
+//        _backView.hidden = NO;
+//        [self.userImagebackView removeFromSuperview];
+//        self.myTableView.delegate = nil;
+//        self.myTableView.dataSource = nil;
+//        [self.myTableView removeFromSuperview];
+//        
+//        sender.hidden = YES;
+//        NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
+//        [def removeObjectForKey:@"isLogin"];
+//        [def removeObjectForKey:@"hasLoginKey"];
+//        [def synchronize];
+//        [self presentLeftMenuViewController:nil];
+//    }
 }
 
 - (void)didReceiveMemoryWarning {
